@@ -5,8 +5,9 @@ Python code to pull user data from twitter.
 
 ## Data files
 Both data files were generated on October 8, 2013.
-1. twitter_user_datascience_data.csv this data set was generated with the query 'datascience' notice that only about 150 users are active
-2. twitter_user_data.csv this data set was generated with the query 'nfl' the data is abit more complete
+
+1. **twitter_user_datascience_data.csv** this data set was generated with the query 'datascience' notice that only about 150 users are active
+2. **twitter_user_data.csv this data set** was generated with the query 'nfl' the data is abit more complete
 
 
 ## How to run the code
