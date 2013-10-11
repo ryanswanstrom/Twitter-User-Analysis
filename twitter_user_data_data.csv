@@ -1,0 +1,1001 @@
+handle,name,age,num_of_tweets,has_profile,has_pic,num_following,num_of_favorites,num_of_lists,num_of_followers
+GuardianData,GuardianData,1674,5963,1,1,189,2,2902,38526
+TwitterData,Twitter Data,115,147,1,1,8,2,303,8910
+DataSift,DataSift,1214,2604,1,1,147,83,760,17056
+data_nerd,Carla Gentry,1316,93304,1,1,6274,469,507,10608
+BigDataBorat,Big Data Borat,561,504,0,1,37,0,413,13178
+IBMbigdata,IBM big data,939,12266,1,1,1373,42,856,22563
+ProjectOpenData,Project Open Data,505,143,1,1,50,24,191,3357
+DataKind,DataKind,641,1099,1,1,85,174,446,6468
+DataStax,DataStax,1277,2175,1,1,881,72,305,6592
+analyticbridge,Big Data Science,2031,10904,1,1,1664,70,589,9193
+datastories,Data Stories podcast,633,258,1,1,21,112,167,2114
+DataMiningBlog,Sandro Saitta,2017,789,1,1,391,19,401,5057
+DCVC,Data Collective,596,188,1,1,43,7,31,1163
+datascifellows,Data for Social Good,213,427,0,1,135,2,48,1279
+CivicData,Civic Data Challenge,567,2383,1,1,1822,24,99,1635
+ds_ldn,Data Science London,621,2214,1,1,243,0,200,3292
+DataRemixed,Ben Jones,782,1243,0,1,1160,833,87,1347
+PyDataConf,PyData Conference,425,141,0,1,92,4,64,1336
+bigdataweek,Big Data Week,608,5152,1,1,440,10,140,3047
+DataCommunityDC,Data Community DC,450,709,0,1,23,13,70,943
+dataweeksf,Data 2.0,1008,2168,1,1,875,20,88,1230
+mortardata,Mortar Data,905,1669,1,1,446,22257,77,1395
+ReedConstrData,ReedConstructionData,1637,27514,1,1,384,42,735,26495
+DataPointed,Data Pointed,1197,2038,0,1,416,11,478,5657
+DataJunkie,Ryan Rosario,2113,11816,1,1,733,2026,617,6986
+HealthDataGov,US HealthData Gov,1046,1795,0,1,38,3,398,12205
+LifeisData,Life Is Data,674,540,1,1,2370,3,121,2499
+ChicagoCDO,Chief Data Officer,874,931,0,1,10,2,181,3008
+usdatagov,Data.Gov,1406,1826,1,1,55,1,575,7604
+TEDataEgypt,TE Data - تي اي داتا,1375,32756,1,1,6140,4,306,123787
+TreasureData,"Treasure Data, Inc.",713,719,1,1,122,1,56,784
+datadotcom,Data.com,1721,6194,1,1,3474,139,466,13815
+BigDataExpo,BigDataExpo™,701,20629,1,1,490,24,225,9177
+BBGVisualData,Bloomberg VisualData,147,765,1,1,66,0,64,1495
+FirstData,First Data,1770,7014,1,1,1089,72,301,9767
+DataScienceCtrl,Data Science Central,724,276,1,1,1034,0,86,1813
+NOAAOceanData,NOAA's Ocean Archive,309,197,1,1,65,0,16,319
+datagovau,data.gov.au,1051,10,0,1,53,0,3,57
+LNdata,LA NACION Data,850,10846,0,1,1634,1173,317,5711
+TrendData,TransUnionTrendData,1539,879,1,1,233,1,41,753
+data_by_conrad,Conrad Walters,233,106,0,1,143,0,12,187
+DataEnthusiast,Data Enthusiast,879,751,1,1,1566,7,65,1378
+BigDataRepublic,Big Data Republic,448,2778,0,1,1175,23,118,2958
+NYFed_data,New York Fed Data,1948,1393,1,1,1,0,901,23499
+IE_BigData,Big Data World Tour,608,1235,1,1,387,5,105,4079
+datanews,WNYC Data News Team,694,406,1,1,337,11,244,2738
+DrBigData,Benoît Brookens III,1687,172,1,1,18,84,20,632
+DataKindUK,DataKind UK,267,104,0,1,34,2,33,531
+datagems,comScore Data Gems,1137,560,0,1,2160,76,664,8866
+DataPortalIndia,data.gov.in,240,1029,1,1,22,1,36,2117
+worldbankdata,World Bank Data,1090,1578,1,1,16,18,315,6952
+DataMinerUK,DataMinerUK,1834,2632,1,1,1111,201,394,3533
+EdDataCampaign,DataQualityCampaign,1057,3695,1,1,735,270,136,3041
+DataMiningView,Data Mining View,330,683,1,1,1324,0,66,1947
+planetbigdata,Planet big data,868,2485,0,1,2,0,51,666
+DataIsAmazing,Amazing Data,55,29,0,1,2,62,62,5494
+EC_opendata,EC Open Data Policy,1329,2781,0,1,761,15,415,4454
+ftdata,FT Data,1142,542,1,1,202,4,156,2520
+SmartDataCo,SmartData Collective,1788,15249,1,1,438,0,896,10942
+DataCoachSays,Data Coach,378,99,1,1,0,0,6,317
+SchoolOfData,School of Data,594,770,0,1,673,16,329,4578
+ciscoDC,Cisco Data Center,1954,5231,1,1,351,11,1184,59813
+childhealthdata,Data Resource Center,1843,1438,1,1,1135,14,163,3679
+HuffPostData,HuffPost Data,449,70,0,1,40,109,94,1121
+DataDiva,Jennifer Borgioli,2072,30744,1,1,1545,248,169,3488
+BigDataInsights,Marty Wells,1429,612,1,1,656,8,22,514
+LATdatadesk,The Data Desk,1769,3070,1,1,1,0,318,3028
+Data_for_Good,Data for Good,119,389,1,1,70,133,4,184
+rpdata,RP Data,1772,1601,1,1,29,1,161,10304
+MadDataScience,Alessandro Gagliardi,988,781,1,1,1324,42,46,889
+datainfolit,Data Info Literacy,605,716,1,1,284,4,27,412
+PitchBook,PitchBook Data,1582,2344,1,1,1595,167,136,4014
+Tech_Data,Tech Data,1700,1542,1,1,948,22,208,6899
+FaceOfBigData,Face of Big Data,448,1469,1,1,3164,71,176,4876
+TheDataDoc,Ken Colburn,1920,5441,1,1,891,79,143,2894
+SafetyDataGov,Safety.Data.Gov,392,192,0,1,14,1,23,681
+SecureData,Secure Data Recovery,1247,780,1,1,561,98,143,15913
+Data_analytics_,Data Analytics,386,1065,1,1,2750,1,78,3197
+BigDataGal,Lillian Pierson,355,2234,1,1,3971,345,204,6466
+opendataottawa,Open Data Ottawa,1330,3085,1,1,885,270,252,2916
+OpenDataLondon,Open Data London,1206,1617,1,1,543,48,267,2523
+HDMmagazine,Health Data Mgmt,1096,5065,1,1,432,3,227,6370
+DiggingIntoData,Digging Into Data,1701,209,0,1,0,0,96,1534
+MdStateDataCtr,MD Dept of Planning,1554,869,1,1,96,3,57,992
+driven_by_data,Gregor  Aisch,1155,2889,1,1,426,667,507,5248
+aaronkoblin,Aaron Koblin,1686,670,1,1,331,22,1094,17517
+BigDataDownload,@BigDataDownload,188,265,1,1,17,0,42,1087
+DataUpCDL,DataUp at CDL,808,229,1,1,0,0,15,200
+TheDataChef,Jacob Perkins,1344,483,1,1,112,4,144,1369
+AlpineDataLabs,Alpine Data Labs,897,120,0,1,163,0,27,311
+dfmdata,Thunderdome data,391,670,0,1,220,1,46,520
+bodc,BODC — marine data,1996,2557,1,1,462,6,112,2262
+Pqlyur1,Meta World Data,1429,53945,1,1,2300,150,265,5455
+SocialDataWeek,Social Data Week,192,907,1,1,834,27,35,1793
+BigDataStartups,BigData-startups.com,301,2427,1,1,583,0,118,3556
+DataQuick,DataQuick,1638,682,1,1,158,0,59,1826
+GE_Data_Viz,GE Data Viz,996,57,1,1,65,0,24,617
+cqrcDataMine,The Data Mine,528,70,0,1,200,0,28,500
+KenyaOpenData,Kenya Open Data ,672,2259,1,1,42,19,51,1850
+UKDataArchive,UK Data Archive,788,802,0,1,1178,5,62,1942
+WibiData,WibiData,751,396,1,1,743,2,58,1730
+DataGuidance,DataGuidance,1595,2758,1,1,770,34,81,1523
+i_am_data,iAmData,1359,8345,1,1,96,0,24,4634
+DataCenterTT,SearchDataCenter.com,1515,1114,1,1,2070,1,135,3798
+TribData,Texas Tribune Data,1428,507,1,1,505,1,346,6699
+ioDataCenters,IO,1625,1226,1,1,1286,1185,83,4522
+MobileDataAssoc,MobileDataAssoc,1682,1174,1,1,1606,9,109,2441
+BigData_,Big Data,1535,19465,1,1,2873,1,218,4338
+ClearStoryData,ClearStory Data,638,99,0,1,115,0,39,654
+ReligionData,theARDA.com,1374,259,1,1,49,0,85,1409
+ReferenceData,InsideReferenceData,1675,2750,1,1,768,0,95,1761
+aaronkoblin,Aaron Koblin,1686,670,1,1,331,22,1094,17517
+opendatamcr,Open Data Manchester,1231,854,0,1,673,0,125,1533
+opendatacat,Open Data. gencat,954,1043,1,1,664,0,221,2174
+gnip,"Gnip, Inc.",1812,1953,1,1,1672,1411,431,8712
+BigDataDiary,BigData,613,4985,0,1,1381,53,160,3232
+Data_Tips,Data Tips,172,18,1,1,10,9,43,2493
+nyhackr,NYC Data Hackers,1120,143,1,1,70,0,45,728
+YahooSearchData,Yahoo Search Data,1707,6388,1,1,226,2,482,28765
+HDScorp,Hitachi Data Systems,1920,7740,1,1,1048,13,362,8206
+Data_Blog,Data Journalism Blog,914,630,1,1,1979,25,288,2935
+DataMind_org,@Datamind_org,98,26,0,1,118,0,5,198
+_opendata,Open data,858,26514,0,1,68,0,255,3062
+DataNoBorders,Data Without Borders,840,369,0,1,15,0,244,2475
+snackdata,Snack Data,539,327,1,1,42,190,5,290
+datapublica,Data Publica,1063,4313,1,1,527,6,283,3883
+KardashianData,The Kardashians on E,906,5100,1,1,118,119,22,8861
+OpenElection,Open Election Data,1304,45,0,1,3,0,75,641
+opendatanetwork,Open Data Network,1478,207,0,1,203,0,287,2713
+YipitData,YipitData,889,59,1,1,6,0,22,927
+AppliedDataLabs,Applied Data Labs,581,74,1,1,22,6312,13,5146
+DataWL,Data Without Limits,253,2017,1,1,5036,0,75,4890
+d8atransmission,Data Transmission,1716,17003,1,1,3348,13,188,5918
+AidData,AidData,1549,3629,1,1,449,16,270,5332
+Data2364,JeanLucStewart,1194,54086,1,1,1536,3815,59,1269
+econdata,Economic Data,1474,7,1,1,26,0,166,6132
+UKODI,Open Data Institute,566,1412,1,1,331,3,237,4741
+AltosResearch,Altos Data Geeks,1794,1681,1,1,2393,3,209,4151
+peteskomoroch,Peter Skomoroch,2010,10361,1,1,996,2434,976,14647
+Data01,Dan Tabár,1786,3318,1,1,376,228,31,1273
+strataconf,O'Reilly Strata,1183,2771,1,1,1125,79,761,13661
+MsDrData,Lisa Neidert,1224,6054,1,1,372,5068,17,339
+LinkedInToday,LinkedIn Today,1032,6820,1,1,639,69,1205,48631
+leonidkruglyak,Leonid Kruglyak,1721,17601,0,1,776,803,291,6004
+AdAgeDataCenter,Ad Age DataCenter,1646,175,1,1,12,0,202,2344
+Open_TO,Open Data Toronto,1444,3747,1,1,774,275,441,5062
+datachick,Karen Lopez,1906,128724,1,1,2665,865,718,8180
+Opendatanl,Open Data Nederland,1032,1806,0,1,2,0,105,2318
+Datadatti,Data Darancharas,890,2609,1,1,78,0,28,3666
+chrondata,Chronicle Data,1318,391,1,1,9,0,110,966
+opendataeuskadi,Open Data Euskadi,1268,922,1,1,450,3,192,1981
+bigdatahipster,Big Data Hipster,540,296,0,1,33,0,61,1298
+arnicas,Lynn Cherny,2337,16856,1,1,1308,2384,166,1999
+alignedleft,Scott Murray,1798,3720,1,1,645,2792,296,4462
+data_cuisine,Data Cuisine,394,40,1,1,10,12,4,104
+SNCFopendata,SNCF Open Data,567,350,1,1,594,65,72,1826
+wxdata,Weather Data,1649,24,0,1,207,0,43,532
+kevinweil,Kevin Weil,2381,11885,1,1,1830,6709,873,29550
+IBM_DataPower,"iSOA Group, Inc",1847,1001,0,1,1872,4,243,5721
+DataXu,DataXu,1490,1649,1,1,1676,15,271,5191
+DataXu,DataXu,1490,1649,1,1,1676,15,271,5191
+jakeporway,Jake Porway,1683,3443,1,1,248,841,402,5112
+ScientificData,Scientific Data,197,144,0,1,141,0,47,898
+Dataromance,Data Romance,1404,6736,1,1,1955,27,119,4348
+RigData,RigData,1416,3665,1,1,1717,32,274,15270
+dorkitude,Kyle Wild,2086,15532,1,1,1773,112739,268,8200
+hmason,Hilary Mason,2433,11424,1,1,1041,1042,2392,35099
+DataGovUK,UK Open Public Data,1357,386,1,1,26,0,199,2681
+USFarmdata,US Farm Data,1507,4875,1,1,1278,5,179,5426
+data4all,W. David Stephenson,2639,23171,1,1,4863,42,331,5046
+VideoDataBank,Video Data Bank,1646,830,1,1,435,21,98,2036
+furrier,John Furrier,2407,23005,1,1,9994,1375,968,15283
+JoshData,Joshua Tauberer,792,2716,1,1,76,79,101,1199
+neil_conway,Neil Conway,1557,2690,1,1,540,258,133,2114
+EdwardTufte,Edward Tufte,1221,1270,1,1,495,8,1481,31537
+researchremix,Heather Piwowar,1430,16314,0,1,1963,1179,274,3793
+stamen,Stamen,2393,991,1,1,243,317,928,13284
+AccessDataGroup,AccessData,1497,4699,1,1,829,7,241,4404
+NTTDATAAmericas,NTT DATA Americas,1431,3125,1,1,221,0,68,2193
+BigDataBlogs,BigData Blogs,701,7484,0,1,2094,0,196,5264
+infoarbitrage,Roger Ehrenberg,2069,14088,0,1,251,98,1462,26148
+defect_data,DƎF3CT DΛTΛ ,1141,1927,1,1,794,32,62,13539
+LovesData,Loves Data,1634,2116,1,1,79,10,162,1986
+DataRealms,Data Realms,1024,1117,1,1,45,3,43,1858
+hspter,Hilary Parker,1672,9230,1,1,1026,5249,35,807
+NASAdata,data.nasa.gov,763,35,1,1,7,0,52,1527
+MySocialData,My Social Database,262,79,1,1,2517,8,18,5511
+DataGRDN,Data Garden,1047,1387,1,1,726,859,39,882
+MexiData_info,MexiData.info,1603,5420,1,1,285,2,95,1192
+krees,Kim Rees,2232,4595,1,1,621,2220,416,3933
+f,Fred Oliveira,2590,8445,1,1,384,1380,516,53899
+D3detroit,Data Driven Detroit ,974,511,1,1,746,48,125,2578
+opendatacenter,Open Data Center,1112,1752,1,1,1004,24,144,2971
+ArtistData,ArtistData,1707,1423,1,1,2757,0,444,6037
+smfrogers,Simon Rogers,2002,7494,1,1,1159,351,910,9374
+dataindiatweets,Data_India,1442,5740,0,1,68,368,5,635
+CensusUNFPA,Data for Development,1197,1242,1,1,282,14,53,909
+DataVizInc,"DataViz, Inc.",1640,2030,1,1,2064,9,186,2582
+RioData,RioData or just Rio!,1752,17333,1,1,471,106,41,1315
+AnaDataGirl,Ana Silva,1699,12401,1,1,170,2388,160,1541
+Data_BC,Data_BC,930,1368,0,1,170,2,112,1244
+robotinthewild,Data the robot!,1120,377,1,1,82,49,61,1064
+BerkeleyData,datascience@berkeley,224,145,1,1,308,3,23,714
+kdnuggets,Gregory Piatetsky,1708,11217,1,1,359,76,922,13673
+SteveLohr,Steve Lohr,1530,571,0,1,353,2,453,7436
+puffnfresh,Brian McKenna,1632,9837,1,1,1192,79,174,3261
+DataSiftDev,DataSift Developer,1186,562,1,1,11,0,23,732
+DimensionData,Dimension Data,1451,3072,1,1,210,70,85,3851
+DataG,Peter Murray,1983,5102,1,1,384,15,118,913
+medriscoll,Michael E. Driscoll,1751,1706,1,1,743,101,835,10314
+neil_conway,Neil Conway,1557,2690,1,1,540,258,133,2114
+nickducoff,Nick Ducoff,2000,9321,0,1,173,42707,165,3569
+DataChomp,Rob Sullivan,1358,10554,1,1,688,927,67,1265
+gilgul,Gilad Lotan,2383,5214,1,1,1085,589,417,11367
+drewconway,Drew Conway,1746,18735,1,1,286,165,540,7300
+mathieubastian,Mathieu Bastian,1681,1171,1,1,464,25,150,1643
+bradleyvoytek,Bradley Voytek,1195,6708,1,1,672,444,508,6727
+wesmckinn,Wes McKinney,1330,4135,0,1,416,196,247,4542
+acroll,Alistair Croll,2386,15681,1,1,5218,723,1006,12457
+derrickharris,Derrick Harris,1599,2563,1,1,193,6,561,7244
+nathanmarz,Nathan Marz,1580,2620,0,1,243,37,500,8824
+BSmithData,Brian Smith,899,1078,0,1,1897,20,30,1807
+revodavid,David Smith,1631,4608,0,1,703,1899,630,7860
+PsychDataGeek,Heathen,401,26248,1,1,843,19171,17,783
+kdnuggets,Gregory Piatetsky,1708,11217,1,1,359,76,922,13673
+dhgisme,danielle gould,1352,8900,1,1,1081,144,440,6364
+kncukier,Kenneth Cukier,973,3178,1,1,517,5700,227,3351
+infochimps,Infochimps,1891,3780,1,1,2769,7,785,9021
+tableau,Tableau Software,1974,5304,1,1,2051,90,1203,20165
+mrogati,Monica Rogati,1801,777,0,1,257,199,364,6572
+bigdata,Ben Lorica,1753,2305,1,1,87,10,1005,14681
+mhausenblas,Michael Hausenblas,2409,4840,1,1,974,813,266,3072
+DataFactoryLA,DataFactory Latam,1219,1627,1,1,953,0,37,1820
+DataSecuB,datasecuritybreach,697,609,0,1,5,0,47,1293
+appcelerator,Appcelerator,2178,6996,1,1,1284,298,1357,18579
+opendataParis,Open Data Paris,1220,413,1,1,56,1,239,3241
+jeremywright,Jeremy Wright,2410,41137,1,1,7270,446,876,14321
+kurtosis0,Kurt Smith,1995,2533,1,1,833,629,59,1637
+jcukier,Jérôme Cukier,1987,4983,1,1,605,221,309,3111
+gilelbaz,Gil Elbaz,1708,281,1,1,1110,959,205,2988
+GCBAdata,Buenos Aires Data,975,1423,1,1,439,157,135,5283
+mrflip,ɹǝɯoɹʞ (dılɟ) dılıɥd,2397,3503,1,1,1331,226,358,3999
+PaulMiller,Paul Miller,2425,16199,0,1,960,1,743,8595
+TheDataOctopus,The Data Octopus,1151,3103,1,1,2409,1201,33,2193
+one_datum,One Data,1039,18,0,1,3,0,9,804
+RMB,Rob Bailey,1728,8733,1,1,1025,397,256,11503
+eyeofestival,eyeo organizers,1035,1270,1,1,112,2,412,5870
+visualisingdata,Andy Kirk,1262,9421,1,1,302,53,1015,10905
+Data_Anna,Anna Foster,375,213,0,1,353,1,7,230
+brianabelson,brian abelson,671,1273,1,1,517,137,76,1184
+richmanmax,max richman,765,2627,1,1,1040,669,52,802
+DBNess,Vanessa Hurst,1675,5796,1,1,943,2252,221,3059
+JonBruner,Jon Bruner,1764,1756,0,1,835,172,210,2755
+inside_data,Rebecca Croucher,1105,1857,1,1,2292,18,94,2753
+datagraphie,Data Visualization,1278,414,1,1,86,23,113,1323
+mongodbinc,MongoDB Inc.,1997,3739,1,1,134,149,501,10364
+foodgenius,Food Genius,1270,3345,1,1,2102,87,103,2279
+statsfromIN,IN Data,965,428,1,1,539,0,65,2023
+ladamic,Lada Adamic,2390,206,1,1,176,31,243,4189
+datahub,Wisconsin's Data Hub,475,30,1,1,237,0,12,98
+mza,Matt Wood,2466,4980,1,1,449,681,355,5481
+SpringData,Spring Data Team,1037,222,0,1,18,0,98,2442
+TercUsingData,TERCUsingData,1087,5158,0,1,1124,69,41,871
+ODRnetwork,Open Data Research,524,454,0,1,289,0,55,931
+MrDataFerret,PublicDataFerret,1301,1360,1,1,579,8,61,590
+lintool,Jimmy Lin,1333,1575,0,1,234,1,384,6175
+Political_Data,Political Data,435,372,1,1,35,1,20,744
+joe_hellerstein,Joe Hellerstein,1471,1269,0,1,298,97,166,3394
+kaggle,Kaggle,1465,1762,1,1,86,9,486,9326
+HiveData,The Hive,416,1317,1,1,1548,42,42,1145
+PLDATALab,パ･リーグ DATA Lab.,465,11580,1,1,0,0,358,10123
+ChartPornOrg,Chart Porn,1336,1397,1,1,52,0,576,8337
+data_meining,Michael Hoerz,1710,1946,1,1,711,220,52,625
+John4man,John Foreman,687,1779,0,1,276,1173,326,7733
+ML_Hipster,ML Hipster,454,121,0,1,0,6,117,3859
+datameer,Datameer,1353,3962,1,1,1093,79,215,3670
+treycausey,Trey Causey,1002,14814,1,1,494,320,81,1192
+cassandra,Cassandra Database,1614,193,0,1,60,0,498,19575
+data_govt_nz,data.govt.nz,1436,118,1,1,65,0,128,1486
+DataPrivacyDay,Data Privacy Day,408,1082,1,1,244,2,35,730
+personaldata,Personal Data Ecosys,976,268,0,1,262,15,48,589
+simplystats,Simply Statistics,706,1105,0,1,205,33,402,9318
+paldhous,Peter Aldhous,504,1871,1,1,1177,48,126,1828
+AdDataExpress,Advertising Database,1605,2601,1,1,962,36,47,1883
+jsteeleeditor,Julie Steele,2026,3384,1,1,800,316,245,3242
+BigDataAnalysis,John Akred,1065,402,1,1,609,36,116,1284
+josh_wills,Josh Wills,1991,6247,1,1,782,2951,198,3938
+DataIntegrate,Actian DataCloud,1561,6767,1,1,535,0,126,1783
+OpenDataChicago,Open Data Chicago,306,146,0,1,142,1,30,520
+deanwampler,Dean Wampler,1933,9000,1,1,694,1787,429,4806
+mattturck,Matt Turck,978,2212,0,1,852,241,113,3626
+DataDevices,Data & Devices,334,1068,0,1,90,4,4,1166
+NulData_Info,プロ野球ヌルデータ置き場,1339,52768,1,1,0,40,377,9637
+BigDataInsight,BigDataInsightGroup,665,1283,1,1,1986,1,71,2087
+OpenDataKit,Open Data Kit,1294,263,0,1,37,0,56,651
+datamarket,DataMarket,1733,2035,1,1,433,30,553,5917
+smolix,Alex Smola,1956,227,1,1,42,1,143,2673
+RaviDataIyer,Ravi Iyer,2004,153,0,1,83,0,13,302
+DataGenetics,DataGenetics,632,640,1,1,228,5,39,1124
+GoLocalData,LocalData,491,240,1,1,160,17,61,742
+datanews_nl,Data News NL,1736,12055,0,1,2850,2,196,5780
+nzzdata,NZZ Data,128,988,1,1,688,348,38,653
+OpenDataBC,Liberate the Data,1275,1026,0,1,541,17,109,1026
+DataCtrJournal,Data Center Journal,1346,14941,1,1,517,1,102,3123
+noahhlo,Noah Lorang,1009,1891,1,1,52,2,36,1034
+rachelbinx,rachel binx,2093,6164,1,1,492,709,104,1403
+SethGrimes,Seth Grimes,1812,13166,0,1,174,69,652,8305
+chicagodata,Data Science Chicago,245,57,1,1,216,0,20,472
+BayAreaData,Daniel J. Willis,1088,580,0,1,100,0,48,666
+DataSmartCities,Data-Smart Cities,195,319,1,1,563,21,32,697
+data_mining,The Modeling Agency,1681,598,1,1,2095,0,105,2200
+MarketData,Inside Market Data,1674,2358,1,1,74,0,42,1393
+factual,Factual Team,1708,785,0,1,183,436,291,2782
+sDataManagement,SearchDataManagement,1549,1532,1,1,431,2,102,1587
+IBMdatamag,IBM Data Magazine,605,1693,1,1,2039,5,79,2125
+Open_Data,Steve Peters,1172,900,1,1,343,6,45,451
+data_daddy,Matt Walker,555,246,0,1,221,132,9,256
+databasin,Data Basin,1739,513,1,1,578,2,58,553
+DataCenterWorld,DataCenterWorld,1499,597,1,1,639,3,76,2986
+LocalDataCo,Local Data Company,1104,1038,1,1,106,0,11,777
+raseman,Sophie Raseman,2049,1216,0,1,718,722,43,1097
+BigDataInnovate,Big Data Innovation,1094,1019,1,1,127,2,71,2525
+opendatablog,Open Data Blog,1526,360,0,1,243,0,204,1944
+markmadsen,Mark Madsen,2272,17105,1,1,518,351,357,5973
+championdata,Champion Data,1437,5344,1,1,3,0,129,6870
+BeisbolData,Beisbol Data,940,2736,1,1,117,9,62,8111
+DataMentors,DataMentors,1500,2079,1,1,757,0,96,1795
+thinkingfish,Yao Yue 岳峣,1661,3861,1,1,383,239,27,2241
+DataRoundtable,The Data Roundtable,1287,1305,1,1,906,0,97,1940
+ogrisel,Olivier Grisel,1866,5774,1,1,985,189,470,5376
+ScraperWiki,ScraperWiki,1556,1972,1,1,1423,23,333,3067
+DiDataCloud,Dimension Data Cloud,547,2946,1,1,2374,0,54,2156
+jakehofman,jake hofman,1735,1337,1,1,381,3939,280,3667
+NimbusData,Nimbus Data Systems,1295,1125,1,1,584,34227,62,3221
+TechDataUK,Tech Data UK,1234,1591,1,1,1140,10,20,2140
+HBase,HBase,1636,391,1,1,0,1,288,4523
+siah,Siah,2367,7724,1,1,1178,5014,280,4189
+dataclipe,Data Clipe,1287,23144,1,1,668,83,204,6115
+sccdata,StockCharts Data,433,898,1,1,3,0,6,200
+data_monkey,Neil Charles,1689,4037,1,1,756,90,31,768
+data_monkey,Neil Charles,1689,4037,1,1,756,90,31,768
+TonyBaer,Tony Baer,2049,8405,1,1,862,9,301,4253
+LookerData,Looker,279,134,1,1,139,74,17,204
+xamat,Xavier Amatriain,2194,13183,1,1,246,17,234,2707
+_Data,_Data,1836,88,1,1,59,0,102,1704
+SumAll,SumAll,884,1678,1,1,2044,166,123,2904
+BioDataCentre,Biodiversity Ireland,1429,2874,1,1,19,1,53,1506
+maslett,Matt Aslett,1703,6303,0,1,273,13,255,3935
+Floor_Data,Floor Data ,1442,2797,1,1,1504,0,65,2086
+melissadata,Melissa Data Corp.,1541,2127,1,1,1937,7,59,1540
+DataRiot,David W. Allen,2158,3073,1,1,249,281,40,405
+allthingshadoop,Joe Stein,1269,1391,1,1,515,22,140,2153
+EvansDataCorp,Evans Data,1718,817,1,1,1527,76,29,606
+AllianceData,Alliance Data,1641,5344,1,1,206,1,64,1474
+PrismaticEng,PrismaticEngineering,250,235,1,1,650,70773,84,8578
+1010data,1010data,1574,448,0,1,1457,21,66,1484
+CLDATALab,セ・リーグ DATA Lab.,465,11714,1,1,0,1,397,12067
+stat110,Joe Blitzstein,1138,1990,1,1,1696,0,171,3192
+DataAtCU,DataAtCU,301,1559,1,1,282,6,27,375
+XzibitionData,Xzibition Data,1471,896,1,1,10,1,9,556
+DataAtCU,DataAtCU,301,1559,1,1,282,6,27,375
+XzibitionData,Xzibition Data,1471,896,1,1,10,1,9,556
+InteractiveData,Interactive Data,1238,305,1,1,588,8,41,1109
+driven_data,DrivenData,1646,1218,1,1,1760,0,18,1270
+databigbang,Data Big Bang,1016,134,0,1,266,63,5,148
+almightyData,Cindy Lamm,1497,138,1,1,75,183,1,58
+bigdatalondon,Big Data London,870,727,0,1,85,0,47,1035
+datacenterpost,Data Center Post,1185,1186,1,1,2402,0,55,2457
+adamlaiacano,Adam Laiacano,1079,3472,0,1,433,812,61,1045
+DataCenterBlogs,Data Center Blogs,1263,23183,0,1,73,0,48,1666
+LPSdata,LPS Data & Analytics,632,495,1,1,88,0,8,295
+We_Do_Data,WeDoData,815,755,0,1,780,7,100,1282
+eudata,Our Data,1413,534,0,1,182,1,54,420
+DataCtrIndustry,DataCenterIndustry,1266,851,1,1,1791,1,42,1981
+EnterpriseData,EnterpriseDataWorld,1772,514,1,1,202,0,50,865
+datadrivennews,Data Driven News,106,58,1,1,9,0,22,283
+jameskobielus,jameskobielus,2047,43366,1,1,7426,6,669,10247
+greenhousedata,Green House Data,1798,1591,1,1,1355,116,32,1511
+Data_Democracy,Data & Democracy,533,418,0,1,225,1,9,281
+BigDataXPRT,Big Data XPRT,255,540,0,1,1627,0,36,1649
+MN_StateData,MN Demographic Ctr.,542,802,1,1,512,8,39,636
+DataSong,DataSong,760,412,1,1,1034,39,10,711
+mathbabedotorg,Cathy O'Neil,772,1045,0,1,66,17,94,1815
+DataVision,"Data-Vision, Inc.",1982,1358,0,1,1670,0,18,1731
+ISTC_BigData,ISTC for Big Data,421,487,1,1,504,2,44,716
+duke_data,duke_data,1808,755,0,1,308,19,51,409
+EMCbigdata,EMC Big Data,602,424,1,1,246,1,61,1443
+gutelius,David Gutelius,2273,5590,1,1,368,164,169,2183
+mjcavaretta,Michael Cavaretta,1616,3938,1,1,1385,379,84,1859
+doingdata,Source mailing data,1686,870,1,1,1654,0,37,1250
+jeffreyfkelly,Jeff Kelly,1745,3372,1,1,1202,50,275,4706
+datacentreall,Data Centre Alliance,911,212,1,1,1894,0,44,2218
+DataMiningTips,DataMiningTips,1563,9613,0,1,1639,0,218,3952
+turian,Joseph Turian,2111,938,1,1,870,3329,165,2429
+petervan,Peter Vander Auwera,1945,40431,0,1,2649,540,379,4322
+DataOceanNet,Data Ocean,402,12298,1,1,2494,0,41,2221
+PDBeurope,Protein Data Bank,1095,526,1,1,277,15,37,1082
+Real_Time_Data,Real-Time Big Data,1087,1313,1,1,702,4,46,1585
+OpenCultuurData,OpenCultuurData,652,456,1,1,180,2,26,565
+cloudant,Cloudant,1670,1834,1,1,365,609,297,4349
+DataCenters_QTS,QTS,1654,880,1,1,178,2,26,923
+opensheffield,Open Data Sheffield,1071,242,1,1,352,2,40,544
+DataServicesInc,"Data Services, Inc.",1709,2171,1,1,591,0,44,1208
+chirag_mehta,Chirag Mehta,1759,12536,1,1,105,15,191,3022
+DrDuru,Data-driven $$$,1617,10922,1,1,386,41,69,1177
+NTTDATASolnAPAC,NTT DATA Bus Solns,1206,1440,1,1,1993,2,44,1530
+vFabricGemfire,Pivotal Fast Data,1611,301,1,1,1080,0,61,992
+data_fiend,S J Kerr,601,1933,0,1,1983,325,39,1312
+AlmanacTrader,StockTrader'sAlmanac,1554,2039,1,1,464,27,207,5793
+DataHero,DataHero,580,205,1,1,81,11,19,552
+DallasDataCtr,Dallas Data Center,1682,2256,1,1,1974,7,41,1579
+Smart_Big_Data,Thomas,1648,808,1,1,1940,9,46,1463
+PanduitDC,Panduit Data Centers,1571,990,1,1,198,2,45,1547
+AutoDataEditora,AutoData,1570,3369,1,1,144,0,45,2621
+DataCurtain,datacurtain,177,58,0,1,44,0,20,472
+WarcData,Warc Data,884,527,1,1,244,0,22,711
+OKIData,OKI Data Americas,1724,1655,1,1,766,27,62,1657
+jadler,Joseph Adler,2009,756,1,1,322,19,81,1028
+TAUS_Data,TAUS Data,1518,445,1,1,127,0,80,1405
+communicating,Christopher,1952,19316,1,1,194,18039,184,1694
+TAUS_Data,TAUS Data,1518,445,1,1,127,0,80,1405
+communicating,Christopher,1952,19316,1,1,194,18039,184,1694
+C7DataCenters,C7 Data Centers,1557,46,1,1,997,0,48,1342
+DimensionDataAM,Dimension Data AM,888,2730,1,1,1034,1,20,1010
+mshron,Max Shron,1719,1369,1,1,376,115,74,838
+dataconservancy,Data Conservancy,1442,214,1,1,10,3,37,555
+Data_Center,Karl Griffith,1688,426,1,1,143,3,46,1498
+cynergydata,Cynergy Data,1585,1084,1,1,328,0,17,461
+Ref_Data,ReferenceDataReview,1640,3385,1,1,237,0,22,551
+AppDataIN,AppData,413,631,1,1,226,2,24,443
+BedrockDataSync,Bedrock Data,511,169,1,1,1927,0,19,2137
+datalovestory,Data: A Love Story,609,359,1,1,84,4,10,384
+DataDrivenMktg,DataDriven Marketing,877,7717,1,1,1657,7,64,1258
+DataInnovation,CDI,728,667,1,1,956,31,11,332
+OpenCageData,OpenCage Data,158,235,1,1,51,2,12,182
+FingalOpenData,Fingal Open Data,1057,627,1,1,102,32,41,744
+DataInstitute,Open Data Institute,329,407,1,1,258,6,20,295
+data_wunder,data-wunder,1144,4379,1,1,1522,1,61,1818
+OccupyData,Occupy Data,409,521,0,1,217,97,15,272
+UWMadRschSvcs,Research Data Svcs,1578,1459,0,1,48,0,36,295
+Data_Detective,The Data Detective,1612,88528,0,1,7030,1,35,8813
+DataLovers,Mr Data Lover ,839,2058,1,1,1011,895,37,740
+WeAreXytron,Xytron Data Recovery,1246,507,1,1,1598,0,15,2261
+nealrichter,nealrichter,2018,4194,1,1,514,27,196,2121
+SanDiskDataCtr,SanDisk Data Center,1702,468,1,1,398,6,28,769
+24hourdata,24 Hour Data,1761,784,1,1,1359,0,8,1204
+INFA_BD,Informatica Big Data,1241,1554,0,1,1958,6,36,921
+linuslee,Linus Lee,1719,613,1,1,485,671,17,530
+NewsDataNetwork,News Data Network,1358,1525,1,1,1473,15,5,656
+cbredatacenters,CBRE Data Centers,1097,294,1,1,89,0,22,1331
+UofTdatalib,Data @ UToronto,1444,340,1,1,184,5,42,332
+DVisualizations,Data Visualizations,221,268,0,1,744,14,15,502
+DaDataMonkey,Monkey,1649,13742,1,1,572,43,24,473
+AintDataButch,Butch™ wit an eye,1017,23142,1,1,872,23,5,1075
+OmetriaData,Ometria,225,391,1,1,1800,21,20,991
+GADataGrabber,GA Data Grabber,1183,424,1,1,25,0,44,619
+DiploKat,Kat Townsend,2013,1854,0,1,328,257,34,674
+smediadata,Social Media Data,119,185,1,1,1993,11,8,651
+GetDatEntryJobs,Get Data Entry Jobs,1816,39787,0,1,1616,0,20,1615
+datababyC4,Data Baby,226,65,1,1,53,1,7,343
+thomsondata,Thomson Data LLC,1162,4022,1,1,1974,233,8,1999
+DataCoalition,Data Coalition,393,172,1,1,71,50,6,140
+EUDataForum,European Data Forum,615,205,1,1,223,0,19,468
+datagotham,DataGotham,510,427,1,1,4,36,64,1246
+BigDataHunting,Big Data Hunting,183,328,0,1,952,0,29,1178
+DundasData,Dundas Dashboard,1672,1341,1,1,375,2926,54,812
+ginger_io,Ginger.io,1123,617,0,1,481,0,136,1970
+_inundata,Karthik Ram,939,5781,0,1,636,3574,89,1504
+mxlearn,ML @ REDDIT,1182,2598,1,1,2462,3,173,2846
+FirstDataJobs,First Data Jobs,1277,1634,1,1,16,0,36,932
+dnzDataEntry,Data Entry Projects,1584,29343,1,1,0,0,23,1170
+IGTCloud,IGTCloud Big Data,1676,3871,0,1,272,31,37,782
+NTT_DATA_UK,NTT DATA UK,1010,653,1,1,219,1,8,316
+conikeec,chetan conikee,1973,3969,1,1,1519,2848,59,919
+DataHQ,Data HQ Ltd,1520,2604,1,1,1974,0,29,1446
+mat_kelcey,mat kelcey,1658,7073,1,1,542,763,94,1193
+copadatausa,Copa-Data USA,1340,902,1,1,1291,21,28,1166
+bigdataconf,Big Data Conference,319,1318,0,1,1989,0,32,1547
+HDSAcademy,Hitachi Data Systems,1772,253,1,1,233,2,33,994
+Data_Diva,Vickie Young,1624,3305,1,1,748,35,34,700
+BigDataGuru,Big Data Scientist,632,1344,0,1,308,5,42,766
+Leedsdatathing,Leeds Data Thing,268,661,1,1,658,12,15,549
+HSCICOpenData,HSCIC Open Data,247,302,1,1,400,6,13,394
+HarlanH,Harlan Harris,1725,4415,0,1,407,669,116,1403
+HealthyData,Rob Rustad,579,109,1,1,1148,1,8,319
+4YourDataCenter,Al Thiel,891,3617,1,1,35422,15,102,35311
+IBMBigDataHLS,IBM Big Data HLS,1179,782,0,1,175,15,43,591
+DimensionDataUK,Dimension Data UK,1207,1624,1,1,283,3,32,1078
+OMGannaks,Anna Smith,1151,3144,1,1,488,615,40,634
+EB_DATA,E&B DATA,1648,330,1,1,405,0,46,642
+RdamOpenData,RotterdamOpenData,1208,1240,1,1,637,173,22,594
+EmailDataTips,Email Data Tips,1554,261,1,1,1888,2,37,1254
+5hData,5H Data,5,885,1,1,137,512,1,214
+SVDataScience,SV Data Science,196,57,1,1,120,7,5,190
+BigDataPVSW,Big Data at PVSW,710,1424,1,1,1102,0,41,924
+crs_data,CRS Data,819,3638,1,1,1843,1,27,2162
+OpenMeteoData,OpenMeteoData,270,158,0,1,75,1,10,452
+nicolastorzec,Nicolas Torzec,1534,3848,1,1,369,380,126,1430
+imbigdata,Manish Bhatt,887,13977,1,1,1297,10,198,2413
+pewresearch,Pew Research Center,1682,13801,1,1,26,24,6412,123408
+paulballen,Paul Allen,2307,6302,1,1,4459,265,242,5534
+FireDataMan,Andrew B,1633,2053,1,1,308,1,29,344
+mikiobraun,Mikio L. Braun,1958,6492,1,1,609,1251,119,1605
+Fingal_Data_Hub,Fingal Data Hub,1339,1666,1,1,435,38,16,616
+gaborjszabo,Gabor Szabo,1381,233,0,1,379,50,31,906
+kvsingh,Karan Singh,1971,748,1,1,902,1,90,1634
+datacommons,Data Commons Co-op,1105,214,0,1,222,6,19,300
+DEACdc,DEAC Data Centers,1576,987,1,1,2334,0,58,2214
+chartio,Chartio,1231,778,1,1,429,48,101,1269
+sairmais,data guru,1654,2165,1,1,1400,43,34,594
+TedOBrien93,Data Science Report,893,1241,1,1,1897,8,19,1627
+Data6m,Sm;)e (Bayan Mashat),1052,15011,1,1,615,2021,12,670
+DataTactics,Data Tactics Corp,812,1226,1,1,1337,208,13,552
+datanami,Datanami,848,1739,1,1,300,4,84,1855
+InsightData,Andrew Scott,1586,3417,1,1,370,1,11,879
+ucdata,UC DATA,1568,176,1,1,27,3,17,217
+BestWorkDATA,Chuck Russell,1407,891,1,1,1983,5,6,1161
+DataRecoveryCT,Data Recovery CT,1136,15520,0,1,1849,0,8,1444
+TSchnoebelen,Tyler Schnoebelen,1957,3116,0,1,441,871,50,825
+datadealer,Data Dealer,568,422,1,1,308,2229,12,393
+CEICData1,CEIC Data,841,532,1,1,112,0,2,183
+DataSonify,Data Sonification,447,154,1,1,103,1,9,165
+trifacta,Trifacta Inc.,463,12,0,1,89,0,26,914
+fhuszar,Ferenc Huszar,664,2158,1,1,383,34,104,1698
+datastorage1,Data Backup,1623,272,1,1,2,0,4,540
+DataDirect_News,Progress DataDirect,1723,2940,1,1,432,34,41,582
+DataCenterGuru,Gabe Cole,1670,1521,1,1,2619,7,72,3123
+jdidata,JDI DATA,1311,1325,1,1,1767,24,17,1211
+DellDP,Dell Data Protection,1829,4397,1,1,7058,15,152,7263
+VanOpenData,Vancouver Open Data,363,116,1,1,54,0,16,331
+DataRecoveryPro, Clayton Rogue,1653,704,1,1,186,1,38,747
+DataCenterNerd,The Datacenter Nerd,1486,807,0,1,101,9,23,1076
+DSI2013,Data Sci Insights,147,136,0,1,180,0,1,68
+paulmdavis,Paul M. Davis,2041,18765,1,1,521,200,57,801
+Sub_data,SUSFACE,1589,14527,1,1,1019,2532,5,648
+AnnalynKurtz,Annalyn Kurtz,1058,4597,1,1,2100,3,220,4360
+BigDataSc,Vitaly Gordon,1287,353,0,1,93,1,11,271
+UtahData,Utah Data,1625,599,1,1,196,4,24,303
+DashingD3js,DashingD3js.com,1403,2788,0,1,1475,1055,101,1670
+DataParadigms,AJ,459,119,0,1,112,80,3,34
+DimensionDataAP,Dimension Data AP,1641,667,1,1,117,0,19,655
+dataenvagency,Data Team EA,577,447,0,1,75,8,27,447
+DataCenterKB,Data Center KB,1013,16484,1,1,1026,0,32,1374
+frankolken,Frank Olken,1717,15386,1,1,2001,15,93,1083
+mitultiwari,Mitul Tiwari,1981,1014,1,1,296,341,31,589
+HDColombia,Data Protection Col,934,2069,1,1,920,2,17,507
+DataGravityInc,DataGravity®,353,499,0,1,518,309,18,483
+SixBlue_Data,David Isaak,1643,1422,0,1,639,0,28,533
+fivedatabackup,Online Data Backup,1475,514,1,1,187,0,7,313
+pewresearch,Pew Research Center,1682,13801,1,1,26,24,6412,123408
+PDXBigData,PDX BigData,111,21,0,1,17,0,3,69
+wearedatadepot,Data Depot,891,524,1,1,1389,0,9,1402
+GlobeDataBureau,Globe Data Bureau,664,66,1,1,73,3,20,346
+Five9sDigital,Data Centers,1377,532,1,1,1268,14,15,1214
+DataRetention,Data Retention,1441,751,1,1,314,0,33,590
+CharlieDataMine,Charlie Berger,1549,762,1,1,26,4,25,411
+Thierry_G,Thierry Gregorius,1549,3411,1,1,366,0,88,1049
+DataObservatory,EUDataObservatory ,336,70,0,1,9,0,3,147
+BigData_Journal,Big Data,273,224,1,1,137,21,19,400
+DataWzrd,Martijn Schut,1434,2254,1,1,528,0,16,347
+BigData_Journal,Big Data,273,224,1,1,137,21,19,400
+DataWzrd,Martijn Schut,1434,2254,1,1,528,0,16,347
+SMI_Data,Standard Media Index,707,378,1,1,288,16,13,341
+DataCentersBlog,DataCentersBlog,1230,1094,1,1,2899,0,83,3573
+BigDataStudio,Big Data Studio,1577,2607,0,1,1069,1,22,1078
+SamuelLeach,Sam Leach,1726,763,1,1,1091,665,16,460
+opendatanavarra,Open Data Navarra,948,1009,1,1,682,107,152,1488
+VaptechData,Canberra IT,758,1908,1,1,2083,4,9,1871
+5280BigData,Gretchen Gottlich,1154,518,1,1,968,52,14,375
+dpalmisano,Davide Palmisano,1984,2879,1,1,1599,7,62,1129
+FAOdata,data.fao.org,776,27,1,1,30,0,22,312
+MassData,Massachusetts Data,1448,72,1,1,1,0,110,1592
+LINZLDS,LINZ Data Service,850,351,1,1,190,8,11,310
+OpenDataNG,OpenData Nigeria,363,118,1,1,26,14,9,240
+BEARData,BEAR Data Solutions,1573,258,1,1,16,0,11,308
+AISDC,AIS Data Center Svcs,1436,352,1,1,218,1,29,673
+DataUY,DATA,561,738,0,1,41,241,27,480
+UKBusinessData,Dee's Data Hub,1469,137,1,1,852,4,12,1262
+BigDataClub,BigDataClub,590,12324,0,1,5483,0,137,6740
+OCWdata,Open OCW data,1589,252,0,1,19,0,145,2460
+PatchData,PatchData,104,59,0,1,972,0,4,182
+rdspos,Retail Data Systems,1135,221,1,1,1330,10,7,855
+TheDataGeek,Rich Northwood,472,1372,1,1,636,3,19,615
+TowerData,TowerData,1469,1422,1,1,850,0,12,972
+simplymeasured,Simply Measured,1417,3597,1,1,5219,704,808,29306
+CumbriaBDC,Biodiversity Data,953,641,1,1,152,1,15,465
+WTINoData,WhereThereIsNoData,147,169,0,1,170,0,3,139
+datacentermap,Data Center Map,1681,115,1,1,359,0,106,2913
+BigDataPBI,PatternBuilders,1037,1630,0,1,242,2,24,447
+contextualdata,Contextual Data,1676,944,1,1,1116,6,7,1047
+datablueprint,Data Blueprint,1016,544,1,1,320,2,11,370
+Data_Recovery_U,brittni mosley,1052,1098,0,1,1706,0,5,1426
+DataOnWheels,Steve Hughes,876,1213,1,1,203,2,34,393
+CloudDataTech,Kevin Smith,1550,4558,1,1,460,24,36,464
+DataRush,Pervasive DataRush,1556,2445,1,1,1068,1,98,1386
+payamdata,Payam Data Recovery,1614,245,1,1,1044,24,9,696
+AnnalynKurtz,Annalyn Kurtz,1058,4597,1,1,2100,3,220,4360
+SCDM_DataDriven,SCDM,1652,907,1,1,172,115,14,535
+DataCenterEvent,Data Center Events,586,1445,1,1,1993,1,18,1075
+TechDataGovt,Tech Data Gov/Health,780,1331,1,1,1024,84,24,915
+DeepRichData,Troblin Reich,188,99,1,1,1977,0,1,1678
+iress_data,IRESS Market Data,31,557,0,1,0,0,4,148
+simplymeasured,Simply Measured,1417,3597,1,1,5219,704,808,29306
+SydneyDR,Sydney Data Recovery,1562,3617,1,1,2003,374,31,965
+CogecoData,Cogeco Data Services,1344,180,1,1,96,1,8,344
+OpenDataWR,Open Data WR,1112,314,0,1,49,0,39,311
+OpenDataCincy,Open Data Cincy,87,335,0,1,239,39,2,149
+TheSterlingDG,Sterling Data Group,506,2507,1,1,1128,573,7,1275
+DimensionDataAU,Dimension Data AU,1375,847,1,1,82,0,16,683
+Databroker,Data Broker,1595,1979,1,1,1042,4,36,915
+Data3Limited,Data#3 Ltd (ASX:DTL),1320,935,1,1,388,1,11,630
+datasprings,"Data Springs, Inc",1093,861,1,1,778,21,32,1731
+MyDataMovie,My Data Movie,1112,3595,1,1,1379,1,53,1358
+DataCoup,DataCoup,522,420,0,1,143,13,12,180
+sprint,Sprint,1987,6302,1,1,19,1,3135,174103
+Creative_Data,Creative Data,1371,204,1,1,217,0,62,692
+DataStorageNAS,Chris Whitehead,554,1804,0,1,1175,0,9,1244
+AmericasCupData,America's Cup Data,471,156,0,1,0,0,6,207
+LatestDataGovUk,Data.gov.uk latest,1128,22,0,1,1,0,42,449
+VizDataVis,Viz. DataVis,135,137,0,1,206,3,8,97
+DataCiteCanada,DataCite Canada,1030,18,0,1,3,0,6,82
+NorthamptonData,Northampton Data,811,17,0,1,205,0,9,626
+BigDataMadeEasy,Big Data Made Easy,609,449,1,1,111,2,7,190
+KenOConnorData,Ken O'Connor,1533,2598,0,1,1269,10,112,2131
+ForecasterEnten,Harry Enten,1261,28723,0,1,83,66,228,3294
+b2btelecoms,Frontier Voice &Data,1162,318,1,1,1067,10,10,825
+data_wizard,Data Mining,1636,165,1,1,169,1,26,367
+onlinedataentry,Data Entry Services,1737,3055,1,1,1349,1,10,646
+BankruptcyData,BankruptcyData.com,902,666,1,1,100,0,18,432
+DataSalon,DataSalon,1360,248,0,1,1110,43,5,291
+DataMdlRockStar,Steve Hoberman,1284,100,0,1,48,0,29,415
+TheDataAgency,The Data Agency,1669,314,1,1,308,1,7,531
+TheDataSierra,Sierra Haworth,735,433,1,1,102,3,2,151
+DataCenterSumit,DataCenterSummits,667,695,0,1,1982,2,17,872
+AdmarDataUK,AdmarDataUK,882,838,1,1,1891,2,9,975
+VisualDataGroup,Visual_Data_Group,1344,1522,1,1,877,11,30,588
+symantecdlp,Data Loss Prevention,1029,84,1,1,65,0,11,351
+FootballAndData,NFL Data Consultants,1241,509,1,1,430,2,9,139
+VoltaDataCentre,Volta Data Centres,623,302,1,1,1246,48,13,656
+DataParticle,Thaer Namruti,1372,1029,0,1,342,29,7,278
+HDS_UK,Hitachi Data Systems,933,802,1,1,258,6,25,637
+matchgifts,HEP Data,533,662,0,1,1005,12,4,342
+TopSpeedData,Top Speed Data,1466,230,1,1,337,44,9,163
+EthosData,EthosData,1529,2306,1,1,184,13,6,178
+OpenDataSites,Open Data Sites,37,16,0,1,177,3,5,93
+OpenDataSK,OpenDataSK,787,698,1,1,304,63,22,373
+GoodDataMichael,Michael Gear,905,175,0,1,134,0,7,238
+DataScienceIndy,DataScience Indy,236,23,0,1,0,0,5,24
+GlobalDataNow,Global Data Now,987,1222,1,1,2002,5,7,896
+YouData,YouData,1849,355,1,1,383,0,46,1476
+MississaugaData,City of Mississauga,1364,312,1,1,0,0,51,1750
+SDS2_DesignData,SDS/2 by Design Data,877,2276,1,1,322,21,15,1211
+Data2Dollars,Data to Dollars™,1367,1419,0,1,526,97,29,430
+RSMeansData,RSMeans Cost Data,729,1779,1,1,92,6,17,415
+BigRahimBigData,@BigRahimBigData,325,216,0,1,1994,1,8,552
+TandbergData,Tandberg Data,1059,457,1,1,365,0,18,482
+AELDataservices,AEL Data,804,2640,1,1,1784,691,7,743
+SaphaData,SaphaData | RE News,460,650,1,1,1976,0,17,1219
+charlesarthur,Charles Arthur,2344,87470,1,1,910,5120,3017,51441
+UKGovLD,Linked Data Group,590,125,0,1,604,2,39,631
+UKGovLD,Linked Data Group,590,125,0,1,604,2,39,631
+BigDataBody,Big Data Institute,212,557,1,1,439,2,27,435
+BigDataExperts,Big Data Partnership,646,270,1,1,182,1,21,458
+DiDataJobs,Dimension Data Jobs,1205,557,1,1,3,0,8,625
+data2save,Data2save,1670,845,1,1,6074,1,30,6460
+DataCabler,Techfit's Cable Guy,1528,397,1,1,1690,0,15,640
+ChronicleData,Philanthropy Data,552,76,0,1,22,1,20,331
+HealthDataRight,Health Data Rights,1574,11,1,1,1,0,49,551
+intermedia_data,Intermedia Marketing,1416,139,1,1,827,2,6,747
+Planet_Data,Planet Data,1445,811,1,1,580,14,19,480
+DataRoket,DataRoket,1197,1018,1,1,684,0,15,400
+corelinkdata,Corelink Data Center,1290,387,1,1,334,0,12,617
+DataForensics,Expert Data Forensic,1567,439,1,1,589,8,14,965
+OpenDataBMC,@OpenDataBMC ,63,66,1,1,279,7,4,90
+UnitedFD,United Fiber & Data,307,181,1,1,282,16,11,236
+GoogleTravel,Google Travel Team,1588,1814,1,1,1657,29,5622,211726
+Data_Cards,DataCards,728,1676,0,1,442,16,8,134
+GeoDataPoint,GeoDataPoint,639,391,1,1,421,0,21,545
+DataSpan,DataSpan,1000,589,1,1,404,0,8,411
+Censusacuk,UK Data Service,1672,238,1,1,55,0,33,571
+DataSpan,DataSpan,1000,589,1,1,404,0,8,411
+Censusacuk,UK Data Service,1672,238,1,1,55,0,33,571
+The_Data_Monkey,The Data Monkey,562,1126,1,1,667,6,3,514
+data_entry_work,data entry,1233,2,1,0,20,0,53,6715
+ModularDataCntr,SmartCube,1795,231,1,1,827,1,7,618
+tonydataman,The Data Analysts,1234,3778,1,1,856,6,12,687
+BigDataGeeks,Big Data Geeks,924,202,0,1,196,4,20,387
+linkeddataspain,Linked Data Spain,940,236,0,1,7,0,36,334
+globaldatavault,Global Data Vault,1525,1281,1,1,221,1,13,676
+data4d,Taylor Corbett,303,305,1,1,490,500,12,120
+YarcData,YarcData,594,196,1,1,31,1,13,208
+AllianceBigData,Alliance Big Data,212,659,0,1,149,11,14,231
+PretzelData,Yohan Vetteth,853,122,0,1,226,3,3,235
+d3rt,Data#3 Cisco Racing,1590,683,1,1,154,35,4,258
+DataJuncture,Jerry Hall,456,1009,1,1,391,115,5,115
+StreamDataCentr,Stream Data Centers,780,194,1,1,384,13,12,812
+IBM_DWAnalytics,IBM Data Warehousing,703,381,1,1,452,1,15,455
+WhoScored,WhoScored.com,1383,15143,1,1,60,43,2188,194880
+KromerBigData,Mark Kromer,403,385,0,1,1087,0,10,505
+sandiegodata,San Diego Data,283,89,0,1,117,0,9,103
+ViciousData,ViciousData,1185,374,0,1,278,5,6,209
+datamanager_it,Data Manager Online,1353,8020,1,1,1034,5,58,1634
+dataclinicltd,Data Clinic,1589,1065,1,1,748,0,5,517
+OptisData,Optis,1248,1465,1,1,956,33,19,523
+datameaning,Data Meaning,1579,249,1,1,805,0,18,499
+CCR_Data,CCR Data Ltd,1683,602,1,1,1623,0,7,558
+DataMadeCo,DataMade,185,25,0,1,49,0,2,41
+BigDataFoundati,Big Data Foundation,234,269,1,1,2001,52,8,490
+RyanData,Ryan Womack,1563,72,1,1,208,0,14,149
+comtechefdata,Comtech EF Data,944,271,1,1,41,0,8,349
+BIG__Data,X. Granis Acervus,990,986,0,1,402,32,16,228
+UKBMSLive,UKBMS Live Data,174,211,0,1,46,0,1,202
+insearch4data,In Search 4 Data,644,785,0,1,272,271,13,208
+RDAPsummit,Research Data Summit,730,191,1,1,152,35,10,217
+DynData,Tim Chadwick,749,174,0,1,147,0,9,145
+DataToViz,Susie Lu,968,82,1,1,116,27,6,96
+IntDataCollLtd,Intelligent Data,1093,198,1,1,1908,0,4,606
+DataMiningInfo,Predictive Analytics,1546,25,0,1,595,2,64,1256
+DataSkeptics,Data Skeptics,104,27,1,1,210,3,1,93
+DataCenterUK,Data Centre Talent,623,426,1,1,1479,0,11,799
+DataSkeptics,Data Skeptics,104,27,1,1,210,3,1,93
+DataCenterUK,Data Centre Talent,623,426,1,1,1479,0,11,799
+DataManApp,DataMan App,1106,2938,0,1,1,12,14,291
+RiverMillData,Drew Barwick,935,1705,1,1,1331,23,8,828
+Datacentrespace,Data Centre Space,1330,125,0,1,167,0,20,814
+DataMiningTools,DataMiningTools,1529,142,1,1,1939,0,100,1741
+madwDATA,Make a Difference ,993,200,0,1,112,0,44,492
+DataBeatles,Data Beatles,1516,1166,1,1,613,8,13,4242
+BigDataDaddy,Lucas Tramontozzi,590,226,0,1,164,0,11,214
+BigDataJobsCom,Big Data Jobs,205,448,0,1,461,1,19,408
+TheDataService,The Data Service,716,322,1,1,116,0,13,502
+NerdyDataLtd,NerdyData,77,73,1,1,134,173,16,347
+MEDIN_marine,MEDIN - marine data,1141,99,1,1,321,1,6,230
+DataFinch,DataFinch,476,958,1,1,1926,954,2,542
+DataMiningworld,Data Mining world,537,551,1,1,3072,0,96,3454
+DelawareGIS,DE Geo. Data Comm.,1479,736,0,1,26,0,44,459
+econdatabase,Economic Data,1630,5,1,1,2134,0,13,1716
+DataPrivacyNews,Privacy Partnership,1667,433,1,1,69,0,57,797
+datacave,Data Cave,1695,999,1,1,533,12,11,567
+LiteracyData,LiteracyPro Systems,232,300,1,1,741,35,2,317
+ALNAptData,ALN Apartment Data,1353,826,1,1,702,0,19,783
+Ediscoverycloud,Cloud-Big Data-EDD,1259,1614,1,1,707,20,10,426
+WhoScored,WhoScored.com,1383,15143,1,1,60,43,2188,194880
+dataminingbooks,Data Mining,1414,318,1,1,468,3,96,1644
+viridian_data,Charlotte-profilemgr,1490,555,1,1,1952,0,59,1444
+2data_recovery,Data Recovery,1410,3847,1,1,3415,0,22,3849
+dataclean,Data Clean Corp,1583,95,1,1,561,0,13,624
+opendata_hk,Open Data Hong Kong,215,54,1,1,70,12,7,95
+DATA_TECHNOLOGY,DATA TECHNOLOGY,1397,273,1,1,494,0,0,164
+NewBusinessData,New Business Data,234,236,1,1,1845,37,4,830
+col_data,Columbian Data Desk,570,399,0,1,86,1,9,89
+UWLibsData,UW Libs DataServices,266,155,0,1,253,4,13,141
+NTTNYC,NTT DATA - NYC,475,33,0,1,30,1,0,21
+OpenDataAlex,Alex Meadows,1580,1584,1,1,268,11,12,230
+DataPartnership,The Data Partnership,919,396,1,1,620,5,5,480
+VirtusDCs,Virtus Data Centres,134,287,1,1,826,116,5,298
+ILElectionData,IL Election Data,541,33,0,1,1014,0,10,350
+DataDave,David Goldstone,1642,4206,1,1,375,16,6,243
+NationalDataGRP,National Data Group,1206,394,1,1,781,10,7,510
+ArtdataLondon,Art Data,674,140,1,1,531,0,3,170
+ArtdataLondon,Art Data,674,140,1,1,531,0,3,170
+OptioData,Optio Data,358,377,1,1,961,0,1,153
+beautiful_data,beautifuldata.ie,799,190,1,1,163,5,6,115
+Occupy_Data,Occupy Data,616,551,0,1,152,44,24,359
+DataWatchTech,DataWatchTech,806,34,1,1,80,0,0,37
+flight_data,Flight Data Services,1506,279,1,1,323,0,4,163
+thebigdataconf,Big Data Conf,259,237,1,1,773,281,13,408
+thebusinessdata,The Business Data,982,3272,0,1,1579,1,4,10034
+DataCntrDesign,Integrated Design Gp,1561,285,1,1,188,2,10,329
+lidrc,Linked Data Research,1578,74,1,1,65,0,54,713
+PortalDataCentr,PortalDataCentres,490,431,1,1,725,0,9,603
+BigDataMining1,Big Data Mining,570,29,1,1,1,0,10,184
+WomenInData,Women in Data,152,130,0,1,18,3,8,127
+VelociData,VelociData,374,385,0,1,955,0,2,154
+ExamineData,Examine Data,1488,1230,1,1,2016,0,24,1672
+opendatakenya,Open Data,826,158,0,1,22,1,42,456
+DataDayTexas,Data Day Texas,527,67,0,1,306,0,5,95
+ICSU_WDS,World Data System,610,151,1,1,73,13,8,97
+DataUnitWales,DataUnit,702,472,1,1,163,1,4,228
+1800287225inOZ,CBL Data Recovery AU,1136,3578,1,1,2001,366,27,600
+1800287225inOZ,CBL Data Recovery AU,1136,3578,1,1,2001,366,27,600
+dataPlumbers,Sanjeev Kumar,1270,1158,1,1,150,3,9,277
+ProximalData,Proximal Data,785,103,1,1,80,25,8,158
+GallupNews,GallupNews,2270,4986,1,1,449,9,2445,45934
+PublishMyData,PublishMyData,1057,97,0,1,10,0,10,101
+thedjlist_data,The DJ List Data,1091,10118,0,1,2,0,23,979
+PressData,Press Data,743,692,1,1,301,6,7,221
+INsdc,IN State Data Center,952,1789,1,1,396,10,14,208
+onrampaccess,OnRamp Data Center,1564,833,1,1,331,6,13,340
+SwissBigData,Big Data User Group,513,231,0,1,32,0,6,228
+DrDataRecovery,OntrackDataRecovery ,1728,2002,1,1,240,5,9,415
+BigDataNews,Big Data News,1315,254,1,1,25,0,84,1134
+OpenDataCenters,Open Data Centers,538,157,0,1,590,3,5,428
+datatuesday,Data Tuesday,721,435,1,1,498,5,44,694
+Data360online,Data360,561,373,1,1,1803,0,3,542
+XtremeData,XtremeData,1542,600,1,1,285,2,64,598
+thedatarepublic,The Data Republic,925,365,0,1,336,165,55,573
+SymDataSec,SymmetricalDataSec,182,3569,0,1,2000,0,5,563
+riotta,Gianni Riotta,1488,51201,1,1,870,1243,1781,140279
+BigData_paulz,Paul Zikopoulos,1475,1965,1,1,1413,11,121,2175
+DataShaka,DataShaka,962,468,1,1,260,2,8,229
+DataPrivacyLaw,myCorporateResource,1092,430,1,1,53,0,8,148
+DataDiviner,Alexander Frieden,920,927,1,1,365,36,2,174
+dataquestions,Get The Data,940,153,1,1,3,0,17,164
+DataGuild,The Data Guild,190,102,0,1,63,5,6,147
+DataExpertise,ETL Solutions,1340,1339,1,1,456,0,7,444
+AbsolutData,AbsolutDataAnalytics,1571,1385,1,1,237,31,10,422
+vodafoneNZdata,Vodafone Mobile Data,1479,219,0,1,12,3,36,757
+ConsumerData,Consumer Data Leads,1612,277,1,1,1147,2,2,310
+data_unity,Data Unity,324,209,0,1,115,0,8,132
+mrdataconverter,Mr. Data Converter,1130,16,0,1,31,0,17,215
+data_at_beta,Data at Betaworks,1185,15,0,1,11,0,4,85
+DataGuide,Data Guide,1578,6,1,1,1862,0,6,1242
+DataGravity,DataGravity,543,19,0,1,1,0,13,256
+DataSFBay,Data SF Bay,302,32,0,1,42,0,1,46
+ACData,Alameda County Data ,456,442,0,1,343,0,7,320
+DataBlitzPH,DataBlitz,469,7534,1,1,78,1470,41,4013
+TurnDataIn2Cash,Bob Love,1343,14,1,1,1291,0,31,1772
+rhinoback,Online Data Backup,1665,218,1,1,276,0,55,1170
+DataCentreWorld,Data Centre World,703,651,1,1,1979,2,27,1644
+_J_Data,J. Data,1665,3918,1,1,249,240,0,82
+data_innov_dc,Data Innovation DC,327,27,0,1,147,0,3,50
+airport_data,Airportdata.com,303,270,0,1,340,0,3,119
+payscale,PayScale,1669,19360,1,1,15071,278,657,47397
+juandata,juan data,1633,841,1,1,1137,250,15,783
+cpapolicy,MDI Data Security,1124,1388,1,1,421,1,41,316
+LexisBigData,LexisBigData,401,1727,1,1,331,4,7,275
+MinnData,MinnPost Data,574,413,1,1,172,51,39,393
+DataManage,"Data Management, Inc",1387,1565,0,1,247,0,6,279
+Torquer,Torque Data,1686,321,1,1,232,0,10,234
+q_datavisualiza,Data Visualization,1066,451,0,1,0,0,5,100
+USGS_GDP,USGS Geo Data Portal,245,10,1,1,0,0,2,27
+health_data,health_data,1370,3812,0,1,351,12,125,1290
+CollectiveData,Collective Data,1617,133,1,1,95,0,8,272
+cbldatarecovery,CBL Data Recovery,1693,797,1,1,112,75,12,350
+FutureVAD,Future Voice & Data,1624,76,1,1,1874,0,5,694
+DataCzar,Shash Hegde,689,483,1,1,404,13,6,206
+FORTRUST,FORTRUST Data Center,1133,95,1,1,123,24,6,292
+Data_Int_UK,Data Integration,534,827,1,1,1057,16,9,320
+BackupYourData2,BackupYourData,1183,8091,0,1,587,0,2,365
+RACEPAKDATA,Racepak Data Systems,1339,574,1,1,133,0,5,260
+GDataUK,G Data UK,1087,421,1,1,495,0,10,251
+TheGrok,Bryan Eisenberg,2378,10361,1,1,6892,119,2451,33863
+BellaDati,Data into Profits,1060,479,1,1,378,5,7,218
+DataMan_App,DataMan App,1102,2316,0,1,1027,15,7,174
+IGotBigData,I Got Big Data,745,348,1,1,135,0,12,374
+BlueDataInc,BlueData ,356,158,0,1,1211,1,6,191
+D1Visualization,Data Visualization,283,338,1,1,727,0,8,489
+usdatacorp,US Data Corporation,1367,1457,1,1,148,37,3,607
+DataJoeG,Data Joe,171,472,0,1,555,140,2,355
+DataRecoveryNG,Disk Doctors,871,304,0,1,1947,0,5,803
+DataConsulting,DataConsulting,1483,1882,1,1,352,10,6,306
+VisualOfData,VisualisationOfData,192,763,1,1,960,2,6,551
+jobsinbigdata,Big Data Careers,407,1746,1,1,1964,0,9,401
+charlie_simpson,EM Simpson,956,24627,1,1,966,160,170,3516
+datarescuecentr,Data Rescue Center,1375,2302,1,1,703,2,4,215
+EduData,Brenda Roof,2151,124,1,1,119,5,4,136
+DrDataVDC,Dr. Charles Stryker,449,53,0,1,85,0,1,90
+FirstAmDataTree,First Am Data Tree,1309,491,1,1,2636,0,56,2993
+datadryadnew,Dryad Data,1087,2313,0,1,0,0,6,98
+ToddWrightData,Todd Wright,226,134,0,1,504,0,10,276
+dataCommando,Nate Anderson,1612,603,1,1,113,5,1,67
+BigData4HRGuy,David Bernstein,1959,1129,0,1,329,2,10,261
+PernixData,PernixData,374,537,0,1,206,32,43,1233
+nakeddata,Naked Data,1601,228,1,1,52,2,11,669
+ajaydata,Ajay Data,1787,3942,1,1,337,933,14,11937
+webbmedia,Amy Webb,2185,15445,1,1,993,1836,928,9841
+DanWilsonMusic,Dan Wilson,1590,3230,1,1,449,16,269,16852
+crowd_data,Data Center Crowd,215,1014,1,1,712,5,12,444
+AlogDataCenter,Alog Data Centers,1456,1276,1,1,96,4,16,1143
+DigitalData,DigitalData,370,1675,1,1,960,0,2,933
+MDMBigData,Identiza.com,1052,458,1,1,1967,0,58,1469
+DataConnectors,DataConnectors,1329,241,1,1,181,0,3,260
+trendsmetadata,data about data,893,75262,0,1,1439,17,19,1450
+DataCooker,Isabel Elaine Allen,1691,5838,1,1,254,7,49,643
+ServiceSphere,Chris Dancy,1804,24036,1,1,33,172,274,11111
+DataHiveCanada,DataHive,1337,61,1,1,151,5,2,53
+hooddata,Hood | Data,1253,11328,1,1,124,8,13,507
+EUDataEcosystem,EU Data Ecosystem,198,33,1,1,20,3,9,80
+JRobertsData,Jamie Roberts,887,141,1,1,120,12,0,63
+loadingdata1,Loading Data,544,71,1,1,133,7,2,140
+Error123testing,Data not found,893,50304,1,1,282,28,6,1404
+DimensionDataZA,Dimension Data ZA,1100,2424,1,1,524,13,34,2001
+spaghetti_folks,Spaghetti Open Data,300,950,1,1,64,110,45,906
+GoogleRetail,Google Retail Team,1679,2050,1,1,431,0,2547,86016
+DataCourse,Coursera Data Mgmt,37,22,1,1,36,8,1,340
+iguana2,ASX Data Vendor,1578,198,0,1,121,2,16,469
+4GVoiceData,4GVoiceData,385,223,1,1,427,1,2,351
+opendatagarage,Open Data Garage,940,45,0,1,604,0,44,318
+BadData_,Anthony Newman,1571,1699,1,1,200,214,30,810
+Planet_Rawr,Elisha's on Furlough,1861,45035,1,1,7300,5215,308,9800
+datamafia,Data Mafia,1716,154,1,1,739,0,8,638
+radware,Radware,1679,4779,1,1,6849,17,244,7051
+BisData,BIS,513,0,0,1,0,0,3,50
+payscale,PayScale,1669,19360,1,1,15071,278,657,47397
+DataONEorg,DataONE,1057,319,1,1,154,1,61,886
+DataEquity,Data Equity LLC,1496,245,0,1,1447,12,13,636
+Data4Dev,Emmanuel Letouzé ,338,278,0,1,138,3,16,193
+DataVault,Data Vault Academy,1714,71,0,1,1,0,14,255
+rorkedata,Rorke Data,1277,825,1,1,1952,9,22,810
+OPData,Other Peoples Data,798,164,1,1,492,6,0,324
+JeffersonObama,Jeff Gauvin,1612,203191,1,1,4423,14896,974,17202
+DataCenterSpace,Data Center Space,1295,110,1,1,118,2,6,463
+DataTranslator,Yifu Guo,951,815,1,1,110,341,8,203
+datarealty,Data Realty,979,175,1,1,247,10,1,159
+thedataday,The Data Day,1298,135,0,1,0,0,8,70
+4ddatacentres,4D Data Centres Ltd,1626,206,1,1,346,0,11,349
+4GTalkTextData,TalkTextDataPlan,335,3989,0,1,1633,0,1,596
+techdata_es,Tech Data España,1151,853,1,1,144,0,31,1251
+LawComData,LawComData,30,30,0,1,124,0,1,55
+Data_Jack,DataJack,1554,12732,1,1,162,600,43,455
+data_mos,Jana Moser,586,566,1,1,100,36,4,220
+DataCentersCan,Data Centers Canada,1494,24844,1,1,7485,2,114,7062
+soundofdata,Sound of Data,1851,207,1,1,95,2,9,173
+BigDataNewsco,Big Data News™,116,161,0,1,837,4,3,239
+BigDataIQ,BigDataIQ,231,124,1,1,677,0,3,240
+DataCenterFairy,DataCenterFairy,457,393,1,1,522,0,1,354
+KevinDataMiller,Kevin Miller,483,360,0,1,76,8,2,60
+datarespons,Data Respons,1514,113,1,1,423,3,11,252
+BigDataSpeaker,Sushil Pramanick,1428,3649,1,1,950,23,66,1851
+datarespons,Data Respons,1514,113,1,1,423,3,11,252
+BigDataSpeaker,Sushil Pramanick,1428,3649,1,1,950,23,66,1851
+cwd150,Civil War Data 150,1130,84,1,1,22,0,33,496
+CHGBigDataWeek,CHG Big Data Week,202,279,0,1,116,0,3,108
+FramesData,Frames Data,943,572,1,1,127,0,6,246
+UkConduit,Data Value Architect,596,1060,1,1,303,0,2,207
+PaladinDataCorp,Paladin Data Corp.,603,1482,1,1,877,16,1,525
+Data_News,Data News,957,182,0,1,84,1,24,274
+TruOptik,Tru Optik Data Corp,197,18823,1,1,528,26,27,228
+NLDVGG,NL Data Vault GGroep,1085,193,0,1,260,4,10,236
+ZEBAZ_data,Zebaz Datamarketing,637,1243,1,1,576,46,31,933
+prognosysdata,Prognosys Data,1148,585,0,1,307,0,2,864
+zenithzon82,Data Nerd Z,234,2501,1,1,790,57,7,3115
+TechDataNTWKING,Tech Data AIS,1325,846,1,1,65,0,10,289
+myfxdataprov,My FX Data Provider,115,241,1,1,1891,0,6,635
+HDSANZ,Hitachi Data Systems,527,377,1,1,514,1,8,241
+BigDataGrumpCat,BigData GrumpyCat,225,84,0,1,4,0,16,305
+GetDataBack,Get Data Back,1463,11,1,1,16,0,0,70
+DataMuppet,Data Muppet,1463,2375,1,1,496,9,1,103
+ApkDataAndroid,APK + DATA Android,688,4528,1,1,372,0,0,997
+DataStudios,DataRecordingStudios,1620,111,1,1,72,0,3,196
+DataScienceGeek,Juan Villanueva,665,1413,1,1,110,5,7,240
+datagarden,Data Garden,1409,663,1,1,591,30,2,191
+DataBackupTT,SearchDataBackup.com,182,156,0,1,131,3,7,151
+DataBreachToday,DataBreachToday,734,786,1,1,6,0,14,273
+PlanetData_NoE,PlanetData,1077,85,1,1,48,0,14,114
+GoodDataAlex,Alex Wettreich,356,179,0,1,456,36,0,156
+DataProtecCo,Data Protection Co,1457,554,1,1,553,1,3,215
+wahalulu,Marck Vaisman,1998,755,1,1,723,17,94,1124
+gtfs_data,GTFS Data Exchange,1621,28,1,1,3,0,11,180
+TheDataDiva,Wendy Cobrda,1779,7898,1,1,1788,115,184,1937
+OptimumDataCent,Optimum Data Centres,464,212,1,1,811,8,5,468
+pdshull,Paragon Data Svcs,1505,228,1,1,323,0,4,415
+AdobeMktgCloud,Marketing Cloud,1941,7183,1,1,543,1293,2101,73193
+StonesData,Rolling Stones Data,83,1135,0,1,58,4,3,216
+DataBank_Ltd,DataBank_Ltd,806,36,1,1,166,0,7,148
+GoogleAuto,Google Auto,1522,1614,1,1,516,0,1616,79238
+greglinch,Greg Linch,2110,25270,1,1,2601,6064,741,6565
+BigData4Finance,BigData4Finance,639,164,1,1,1,0,12,237
+bigdataplay,Big Data,663,186,1,1,1625,0,25,1370
+prisonculture,Prison Culture,1195,29994,1,1,617,16472,415,11774
+Data_Genius,Data Miner,542,1209,1,1,187,632,0,83
+data1st,Data First,950,60,0,1,1749,0,2,613
+TechData_BE,Tech Data Belgium,1042,580,1,1,507,0,11,897
+BruceData,Bruce Data Base,506,54,0,1,251,0,12,503
+TheDataDiplomat,The Data Diplomat,977,1038,1,1,1806,4,8,1424
+OpenDataAB,Open Data Alberta,392,47,1,1,52,0,4,79
+DATA_PA,DATA,942,497,1,1,108,5,6,699
+ryanorban,Ryan Orban,1993,1014,1,1,472,19696,33,948
+datacenter_news,Data Center News,1342,24310,1,1,1525,0,65,3638
+datainterchange,Data Interchange,743,33,1,1,1426,3,6,458
+datasecurity1,Data Security,1548,6274,1,1,279,1,29,1175
+DataFoundry,DataFoundry,1198,146,1,1,697,1,28,777
+DataMinds,Data Minds,1400,360,1,1,33,1,24,770
+datarecblog,Data Recovery Blog,1438,98,1,1,1605,0,6,1226
+DataMKE,MKE DataInitiative,641,169,0,1,81,1,8,95
+DataInsightGrp,Data Insight Group,756,331,0,1,123,3,4,126
+FootballBetData,Football-Bet-Data,834,892,1,1,2001,7,14,846
+KWard_Data,Kelly Ward,308,281,0,1,280,20,4,134
+senzari,Senzari,868,1463,1,1,1026,4,38,3177
+_Data_Addict_,Data Addict,346,88,0,1,366,1,15,365
+DataDiscretion,DataDiscretion,1307,487,1,1,1845,0,25,859
+FinData,FIMA Conference,1221,421,1,1,90,1,4,113
+mommygtm,Tricia Pena-Data,1305,2332,1,1,386,8,2,392
+data18,data18,1270,1626,0,1,1265,1,14,1825
+MyDataNest,MyDataNest,1609,30,1,1,1185,0,3,679
+BigDataTechCon,Big Data TechCon,486,1896,1,1,564,108,61,1706
+TheDataTank,The DataTank,1672,84,0,1,195,1,12,283
+techdataNL,Tech Data Nederland,1554,1311,1,1,45,2,10,994
+DataMasher,DataMasher.org,1519,370,1,1,3102,0,322,3053
+coe4bd,CoE4 Big Data,580,409,0,1,309,0,14,198
+BangData,Bang Data,1681,2882,1,1,1209,106,25,823
+BigDataRockStar,BigDataRockStars,132,465,1,1,160,0,5,118
+DataGuv,David Reed,336,224,0,1,63,6,2,123
+BigDataBigData,Big Data,309,336,1,1,37,78,7,359
+BigDataAlex,Alex Philp,732,7175,1,1,303,823,21,313
+OpenDataCommons,Open Data Commons,883,26,1,1,22,0,20,225
+AgileDataGuy,Ralph Ronzio,1345,189,0,1,97,3,7,142
+GreenEarthData,GreenEarthData,906,96,1,1,1900,0,28,973
+SwishData,SwishData,791,510,1,1,153,5,7,123
