@@ -39,4 +39,6 @@ Each row is associated with a different twitter user/account. Below are the colu
 1. a query string: 'datascience' in the example above
 1. Number of pages to return, each page will return 20 users, the current Twitter API is 180 calls per 15 minutes and each page requires a new call
 
+## Some Basic Analysis
 
+See here: [iPython Analysis](http://ipynb.herokuapp.com/urls/raw.github.com/swGooF/Twitter-User-Analysis/master/twitter_analysis.ipynb)
