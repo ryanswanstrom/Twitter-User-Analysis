@@ -1,0 +1,98 @@
+Twitter User Analysis
+========================================================
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+
+When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+require(stats)
+twitter_data = read.csv('twitter_user_data_data.csv')
+summary(twitter_data)
+
+pairs(twitter_data)
+```
+
+Create a linear model
+
+```{r}
+dim(twitter_data)
+model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile) + factor(has_pic), data=twitter_data)
+summary(model)
+```
+
+# Some findings
+
+There is only 1 twitter user that does not have a picture, so we are not using has_pic.
+
+# Do some Step-wise Regression (backwards)
+
+```{r}
+model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile), data=twitter_data)
+summary(model)
+
+# Stepwise Regression
+library(MASS)
+fit <- lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile), data=twitter_data)
+step <- stepAIC(fit, direction="backward") # forward, backward, or both
+step$anova # display results 
+```
+
+# Refit the model with the variables coming out
+
+```{r}
+
+model = lm(num_of_followers ~ age + num_following + num_of_lists , data=twitter_data)
+summary(model)
+
+
+```
+
+# Try without age
+
+```{r}
+
+model = lm(num_of_followers ~ num_of_lists , data=twitter_data)
+summary(model)
+bc = boxcox(model)
+summary(bc)
+
+```
+
+## box Cox says to try the log of num_of_lists, .06
+
+```{r}
+twitter_data$followers_transform = log(twitter_data$num_of_followers)
+tmd = lm(followers_transform ~ num_of_lists , data=twitter_data)
+summary(tmd)
+
+tmdall = lm(followers_transform ~ num_of_lists + age + num_following , data=twitter_data)
+summary(tmdall)
+
+# transform Y^.06
+twitter_data$followers_transform = twitter_data$num_of_followers^.06
+tmd = lm(followers_transform ~ num_of_lists , data=twitter_data)
+summary(tmd)
+
+tmdall = lm(followers_transform ~ num_of_lists + age + num_following , data=twitter_data)
+summary(tmdall)
+
+```
+
+
+
+
+# Try a robust linear Regression
+```{r}
+
+robust_model = rlm(num_of_followers ~ age + num_following + num_of_lists , data=twitter_data, psi = psi.bisquare)
+summary(robust_model)
+
+```
+
+
+```{r}
+a = rnorm(10)
+b = rnorm(10)
+sum((a-b)^2)
+```
