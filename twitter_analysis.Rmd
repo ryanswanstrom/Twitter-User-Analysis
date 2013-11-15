@@ -1,98 +1,231 @@
-Twitter User Analysis
-========================================================
+# Twitter User Analysis
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+According to [Alexa.com](http://www.alexa.com/siteinfo/twitter.com),
+Twitter.com is the 10th most popular site in the world.  Twitter
+is a social network that allows users to share information as a string 
+of 140 or less characters.  This information is called a status update.
+Twitter also allows a user _A_ to follow another user _B_.  Then user
+_A_ will be able to easily view all of user _B_'s status updates. This 
+interaction makes user _A_ a follower of user _B_.  The number of
+followers for a user can be seen as a status symbol or it can indicate
+a user's social media influence.  This study attempts to predict the number
+of followers based upon the various characteristics of a twitter user.
+To be more exact, this study aims to predict the number of twitter followers for the _top_ 1000 twitter accounts associated with the search term **data**.
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## About the data
+
+Twitter has an [API(Application Programming Interface)](https://dev.twitter.com/docs/api/1.1) which provides access
+to information about the _top_ 1000 users for any search term. Unfortunately,
+Twitter does not specify how these _top_ users are determined, but the users
+can likely be identified as the most influential on twitter for a given search
+term. On October 10, 2013, the Twitter API was used to pull information about the
+_top_ 1000 users associated with the term "data".  The final data is
+formatted as a CSV(Comma Separated Values) file with each row indicating
+a separate user and the columns as follows:
+
+1. **handle** - twitter username | string
+1. **name** - full name of the twitter user | string
+1. **age** - number of days the user has existed on twitter | number
+1. **num_of_tweets** - number of tweets this user has created (includes retweets) | number
+1. **has_profile** - 1 if the user has created a profile description, 0 otherwise | boolean
+1. **has_pic** - 1 if the user has setup a profile pic, 0 otherwise | boolean
+1. **num_following** - number of other twitter users, this user is following | number
+1. **num_of_favorites** - number of tweets the user has favorited | number
+1. **num_of_lists** - number of public lists this user has been added to | number
+1. **num_of_followers** - number of other users following this user | number
+
+### Training and Validation Data
+The data file was then split into 2 datasets.  One for training the
+model and another for validating the model.  The split was
+60% for training and 40% for validation. 
+
+
+# Exploratory Analysis
+
+Obviously more can be added here.  About the only thing to note here is
+the **has_pic** column contains only a single value that is different
+from the rest.  Thus **has_pic** will not be included in the analysis.
 
 ```{r}
 require(stats)
-twitter_data = read.csv('twitter_user_data_data.csv')
-summary(twitter_data)
+#read in the files
+set.seed(34567)
+training_data = read.csv('twitter_user_data_data_training.csv')
+validation_data = read.csv('twitter_user_data_data_test.csv')
+full_data = read.csv('twitter_user_data_data.csv')
+summary(training_data)
 
-pairs(twitter_data)
+pairs(training_data[3:10])
 ```
 
-Create a linear model
+# Analysis
+
+The very first thing to try is to create a full linear model with all the
+non-string variables. Looking at the output, the following predictors appear
+to be significant: age, num_following, and num_of_lists.  Just to validate
+the significance, a backwards step-wise regression was run to help identify
+the significant predictors.  Although not always true, in this case the 
+same predictors were identified.
 
 ```{r}
-dim(twitter_data)
-model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile) + factor(has_pic), data=twitter_data)
-summary(model)
-```
-
-# Some findings
-
-There is only 1 twitter user that does not have a picture, so we are not using has_pic.
-
-# Do some Step-wise Regression (backwards)
-
-```{r}
-model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile), data=twitter_data)
-summary(model)
+basic_model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + as.factor(has_profile), data=training_data)
+summary(basic_model)
 
 # Stepwise Regression
 library(MASS)
-fit <- lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + factor(has_profile), data=twitter_data)
-step <- stepAIC(fit, direction="backward") # forward, backward, or both
+step <- stepAIC(basic_model, direction="backward") # forward, backward, or both
 step$anova # display results 
 ```
 
-# Refit the model with the variables coming out
-
 ```{r}
-
-model = lm(num_of_followers ~ age + num_following + num_of_lists , data=twitter_data)
-summary(model)
-
-
+# this is a function to run a model on the training and validation sets
+# and to check against the validation set
+# transform is a parameter to indicate a transform, 0 is no transform, 1 is log, 2 is raised to the .06 power, this is a KLUDGE
+model_test_function = function(eq, transform=0) {
+  # create the model with training data
+  train = lm(eval(eq) , data=training_data)
+  print('model on training data')
+  print( summary(train) )
+  
+  # create the same model with the validation data, just to compare parameter values
+  validation = lm(eval(eq) , data=validation_data)
+  print('model on validation data')
+  print( summary(validation) )
+  
+  # check how closely the model will predict the values in the validation set
+  predicted_vals = predict(train, newdata=validation_data)
+  
+  # unwind the transformations
+  if (transform == 1) {
+    predicted_vals = exp(predicted_vals)
+  } else if (transform == 2) {
+    predicted_vals = predicted_vals^(1/.06)
+  }
+  # compare with actuals
+  # notice the function for the prediction error
+  prediction_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
+  print(paste('The average prediction error is:', prediction_error))
+  
+  prediction_error
+}
 ```
 
-# Try without age
+
+
+## Model 1: Linear Model with age, num_following, and num_of_lists
 
 ```{r}
-
-model = lm(num_of_followers ~ num_of_lists , data=twitter_data)
-summary(model)
-bc = boxcox(model)
-summary(bc)
-
+m1_error = model_test_function(num_of_followers ~ age + num_following + num_of_lists)
 ```
 
-## box Cox says to try the log of num_of_lists, .06
+## Model 2: Linear Model with num_following and num_of_lists
 
 ```{r}
-twitter_data$followers_transform = log(twitter_data$num_of_followers)
-tmd = lm(followers_transform ~ num_of_lists , data=twitter_data)
-summary(tmd)
+m2_error = model_test_function(num_of_followers ~ num_following + num_of_lists)
+```
 
-tmdall = lm(followers_transform ~ num_of_lists + age + num_following , data=twitter_data)
-summary(tmdall)
+## Model 3: Linear Model with just num_of_lists
 
+```{r}
+m3_error = model_test_function(num_of_followers ~ num_of_lists)
+```
+
+
+## Model 4: Linear Model with Log(num_of_followers) and age, num_following, and num_of_lists
+
+Before running the next model, the Box-Cox method was used to determine if any
+transformations need to be done on the response variable (num_of_followers).
+Box-Cox returns $\lambda  = 0.06$ which is pretty close to 0, so a Log
+of the response was applied.
+```{r}
+# run the box cox
+model = lm(num_of_followers ~ age + num_following + num_of_lists , data=training_data)
+bc = boxcox(model, xlab = expression(lambda), ylab = "log-Likelihood")
+max = with(bc, x[which.max(y)])
+
+# create a column for the transformed column
+training_data$log_num_of_followers = log(training_data$num_of_followers)
+validation_data$log_num_of_followers = log(validation_data$num_of_followers)
+
+# run the model
+
+m4_error = model_test_function(log_num_of_followers ~ age + num_following + num_of_lists, 1)
+```
+
+## Model 5: Linear Model with num_of_followers^.06 and age, num_following, and num_of_lists
+
+Also due to the Box-Cox, the num_of_followers were raised to the 0.06 power.  
+
+
+```{r}
 # transform Y^.06
-twitter_data$followers_transform = twitter_data$num_of_followers^.06
-tmd = lm(followers_transform ~ num_of_lists , data=twitter_data)
-summary(tmd)
+# create a column for the transformed column
+training_data$raise_num_of_followers = training_data$num_of_followers^.06
+validation_data$raise_num_of_followers = validation_data$num_of_followers^.06
 
-tmdall = lm(followers_transform ~ num_of_lists + age + num_following , data=twitter_data)
-summary(tmdall)
-
+m5_error = model_test_function(raise_num_of_followers ~ age + num_following + num_of_lists, 1)
 ```
 
+# Initial Conclusions
+
+Of the initial 5 models, the best predictive power on the validation set belongs to 
+Model 3, the linear model using just the num_of_lists.  However, a few other models
+can be applied.
 
 
+## Model 6: Robust linear Regression with age, num_following, and num_of_lists
+```{r}
+robust_model_6 = rlm(num_of_followers ~ age + num_following + num_of_lists , data=training_data, psi = psi.bisquare, init='lts', maxit=50)
+summary(robust_model_6)
+predicted_vals = predict(robust_model_6, newdata=validation_data)
+m6_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
+print(paste('The average prediction error is:', m6_error))
+```
 
-# Try a robust linear Regression
+## Model 7: Robust linear Regression with num_following, and num_of_lists
+```{r}
+robust_model_7 = rlm(num_of_followers ~ num_following + num_of_lists , data=training_data, psi = psi.bisquare, init='lts', maxit=50)
+summary(robust_model_7)
+predicted_vals = predict(robust_model_7, newdata=validation_data)
+m7_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
+print(paste('The average prediction error is:', m7_error))
+```
+
+## Model 8: Robust linear Regression with num_following, and num_of_lists
+```{r}
+robust_model_8 = rlm(num_of_followers ~ num_following + num_of_lists , data=training_data, psi = psi.bisquare, init='lts', maxit=50)
+summary(robust_model_8)
+predicted_vals = predict(robust_model_8, newdata=validation_data)
+m8_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
+print(paste('The average prediction error is:', m8_error))
+```
+
+## Model 9: Decision Tree
+
+```{r}
+library(tree)
+regtree = tree(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + as.factor(has_profile), data = training_data)
+summary(regtree)
+predicted_vals = predict(regtree, newdata=validation_data)
+m9_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
+print(paste('The average prediction error is:', m9_error))
+```
+
+# Further Conclusion
+
+It appears Robust Regression (Model 6) provides the best predictive power for the
+validation set we have.
+
+So we can now rebuild the Robust Linear Regression model with all the data.
+
 ```{r}
 
-robust_model = rlm(num_of_followers ~ age + num_following + num_of_lists , data=twitter_data, psi = psi.bisquare)
-summary(robust_model)
-
+final_model = rlm(num_of_followers ~ age + num_following + num_of_lists , data=full_data, psi = psi.bisquare, init='lts', maxit=50)
+summary(final_model)
 ```
 
+Thus the final model is:
 
-```{r}
-a = rnorm(10)
-b = rnorm(10)
-sum((a-b)^2)
-```
+$$
+  num\_of\_followers = 78.657 + 0.030*age + 0.474*num\_following + 12.408*num\_of\_lists
+$$
