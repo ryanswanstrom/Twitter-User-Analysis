@@ -3,7 +3,7 @@
 According to [Alexa.com](http://www.alexa.com/siteinfo/twitter.com),
 Twitter.com is the 10th most popular site in the world.  Twitter
 is a social network that allows users to share information as a string 
-of 140 or less characters.  This information is called a status update.
+of 140 or less characters.  This information is called a status update or tweet.
 Twitter also allows a user _A_ to follow another user _B_.  Then user
 _A_ will be able to easily view all of user _B_'s status updates. This 
 interaction makes user _A_ a follower of user _B_.  The number of
@@ -76,12 +76,124 @@ plot(training_data$num_of_lists, training_data$num_following)
 
 # Analysis
 
-The very first thing to try is to create a full linear model with all the
-non-string variables. Looking at the output, the following predictors appear
-to be significant: age, num_following, and num_of_lists.  Just to validate
-the significance, a backwards step-wise regression was run to help identify
-the significant predictors.  Although not always true, in this case the 
-same predictors were identified.
+First, a linear model with all the predictors was created.
+The full linear model identified the following predictors as
+significant: age, num_following, and num_of_lists. Then backwards
+step-wise regression was performed and the best fitting model
+was identified as the model containing the same predictors 
+as the linear model previously mentioned.  
+
+The Box-Cox method was used to determine if any transformations needed to be performed 
+on the response variable.  As can be seen in the Box-Cox plot, the maximum value occurred at 0.06.  Due to that value, two separate
+transformations were performed.  The first transformation took the natural log of the
+dependent variable.  The second transformation involved raising the dependent variable 
+to the exponent, 0.06.  Neither of these transformations yielded promising results, so the
+detailed analysis is not included in this report.  
+
+Next, all-subsets regression was performed using the _leaps_ package
+in the R programming language.  The _leaps_ package will perform
+an exhaustive search of all possible subsets of the variables in
+order to find the best fitting models based upon the Mallows' Cp Criterion.
+As can be seen in the output plot, four models appeared to have low Cp values
+as compared to the rest.  Not surprisingly, the four models contain
+different combinations of the 3 predictors already identified, including the
+model indentified by the step-wise regression.  For these reasons and the reasons above, the four
+models with the lowest Cp values will be compared to determine the best model.
+
+Here are the 4 candidate models being considered.  
+
+### Model 1
+$$
+  num\_of\_followers = \beta_0 + \beta_1*age + \beta_2*num\_following + \beta_3*num\_of\_lists
+$$
+
+### Model 2
+$$
+  num\_of\_followers = \beta_0 + \beta_2*num\_following + \beta_3*num\_of\_lists
+$$
+
+### Model 3
+$$
+  num\_of\_followers = \beta_0 + \beta_3*num\_of\_lists
+$$
+
+### Model 4
+$$
+  num\_of\_followers = \beta_0 + \beta_1*age + \beta_3*num\_of\_lists
+$$
+
+## Best Model
+
+First look at the PRESS statistic.  A PRESS statistic reasonably close to the
+SSE supports the validity of a linear regression model.  As can be seen in
+the table, all four candidate models have a PRESS statistic reasonably close
+to the SSE.  
+
+Next look at the Mallows' $C_p$ value.  A lower $C_p$ value is better, in particular,
+the $C_p$ value should be less than p (number of predictors + 1 for the intercept).  Also
+a $C_p$ value equal to p indicates a model with no bias.  Therefore, it is advantageous
+to find a $C_p$ near p.  Model 4 has the lowest overall $C_p$ value, but for Model 4 the p is 3, 
+making the $C_p$ value greater than p.  Only Model 1 has a $C_p$ less than or equal to p.  Model
+1 has a $C_p = 4$ and $p = 4$.  Thus, Mallows' $C_p$ would favor Model 1.
+
+Finally, look at the MSRP (Mean Squared Prediction Error) for the four models.  A lower value
+indicates more predictive power.  Model 1 has the lowest value of the four models,
+so MSRP favors Model 1 as well.
+
+Overall, Model 1 appears to be the best predictive model for the twitter data.
+Model 1 was then recreated using all the available data, not just the training
+data.  The final model for predicting the number of followers of a twitter
+user in the top 1000 for the search term 'data' is:
+
+$$
+  num\_of\_followers = 898 - 1.5*age + .8*num\_following + 28.1*num\_of\_lists
+$$
+
+Here is how the final model can be interpreted. Given a new account following 0 users
+and not it any lists, a twitter user in the top 1000 would be expected to have 898 followers.
+At first this seems ridulous.  Why would a user have any followers without any activity
+and a brand new account.  Remember, that this data is for twitter users in the top 1000, so 
+for a new twitter account to appear in the top 1000, it is likely the person/organization that
+created the account is already influential outside of twitter.  Think about a celebrity
+creating a twitter account. The account will quickly start attracting followers 
+with the anticipation of future activity.
+
+All other factors remaining the same,
+an increase in the age of the account by 1 day results in a decrease in the number 
+of followers by 1.5.  Thus having a twitter account for longer does not appear to increase
+followers.  Also, when the other predictors remain the same, for every 1 user an 
+account follows, it will result in .8 new followers. Another way to look at that is: keeping everything else the same, following 10 more people will result in 8 more followers.
+
+With the rest of the predictors remaining the same, being included in 1 more list results
+in 28.1 more followers.  Thus being in lists is the most influential predictor of followers.
+This makes sense considering the data is associated with the top 1000 and being in more lists means being more influential.  
+
+One interesting area of future research would be generalizing this model to work with other search terms.
+Does the same model still work well or do different terms need different models? 
+How do search terms based upon trending topics have an affect?
+
+# Conclusions
+
+It is possible to predict the number of followers for a twitter user in the top 1000 based
+upon the search term "data".  It appears the age of the account, the number of twitter users 
+the account is following, and the number of lists including the account are all 
+correlated with the number of followers for an account in the top 1000 twitter users
+for the search term "data".  For those that are familiar with twitter,
+it is not surprising that the number of tweets
+does not appear to be correlated with the number of followers.  Thus, tweeting
+more is not helpful for getting more followers.  Also, having a profile does not
+appear to be connected with the number of followers either.  
+
+Surprisingly, 
+the quality of tweets does not appear to be correlated with the number of followers
+either.  Number of tweets that have been favorited would be an indicator
+of the quality of the tweets.  More favorites would appear to indicate more
+quality tweets.  However, having more or less quality tweets does not 
+appear to be correlated with the total number of followers. 
+
+
+# R code
+
 
 ```{r}
 basic_model = lm(num_of_followers ~ age + num_of_tweets + num_following + num_of_favorites + num_of_lists + as.factor(has_profile), data=training_data)
@@ -91,6 +203,29 @@ summary(basic_model)
 library(MASS)
 step <- stepAIC(basic_model, direction="backward") # forward, backward, or both
 step$anova # display results 
+```
+
+
+### All-subsets Regression
+
+```{r}
+# use this to find the Cp values
+library(leaps)
+# only check for columns that we are looking at
+x = training_data[,c(3,5,9)]
+y = training_data[,10]
+models = leaps(x, y)
+models
+
+plot(models$size, models$Cp, log = "y", xlab = "# of predictors", ylab = expression(C[p]), main='Cp values by Number of Predictors', col="red", cex=1.5)
+
+minimum <- models$Cp == min(models$Cp)
+best.model <- models$which[minimum, ]
+
+x_val = validation_data[,c(3,5,9)]
+y_val = validation_data[,10]
+models_val = leaps(x_val, y_val)
+models_val
 ```
 
 ```{r}
@@ -120,29 +255,6 @@ model_info = function(model) {
 }
 ```
 
-
-### All-subsets Regression
-
-```{r}
-# use this to find the Cp values
-library(leaps)
-# only check for columns that we are looking at
-x = training_data[,c(3,5,9)]
-y = training_data[,10]
-models = leaps(x, y)
-models
-
-plot(models$size, models$Cp, log = "y", xlab = "# of predictors", ylab = expression(C[p]), main='Cp values by Number of Predictors', col="red")
-
-minimum <- models$Cp == min(models$Cp)
-best.model <- models$which[minimum, ]
-
-x_val = validation_data[,c(3,5,9)]
-y_val = validation_data[,10]
-models_val = leaps(x_val, y_val)
-models_val
-```
-
 ## Model 1: Linear Model with age, num_following, and num_of_lists
 
 ```{r}
@@ -163,7 +275,7 @@ print("Cp: 4.0")
 ## Model 2: Linear Model with num_following and num_of_lists
 
 ```{r}
-model_2_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_2_training = lm(num_of_followers ~ num_following + num_of_lists, training_data)
 model_info(model_2_training)
 print("Cp: 7.13")
 # check how closely the model will predict the values in the validation set
@@ -172,7 +284,7 @@ MSRP = msrp(validation_data$num_of_followers, predicted_vals)
 print(paste('MSPR:', MSRP))
 
 # this is for the validation data
-model_2_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_2_validation = lm(num_of_followers ~ num_following + num_of_lists, validation_data)
 model_info(model_2_validation)
 print("Cp: 3.45")
 ```
@@ -180,7 +292,7 @@ print("Cp: 3.45")
 ## Model 3: Linear Model with just num_of_lists
 
 ```{r}
-model_3_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_3_training = lm(num_of_followers ~ num_of_lists, training_data)
 model_info(model_3_training)
 print("Cp: 5.74")
 # check how closely the model will predict the values in the validation set
@@ -189,7 +301,7 @@ MSRP = msrp(validation_data$num_of_followers, predicted_vals)
 print(paste('MSPR:', MSRP))
 
 # this is for the validation data
-model_3_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_3_validation = lm(num_of_followers ~ num_of_lists, validation_data)
 model_info(model_3_validation)
 print("Cp: 1.85")
 ```
@@ -197,7 +309,7 @@ print("Cp: 1.85")
 ## Model 4: Linear Model with age and num_of_lists
 
 ```{r}
-model_4_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_4_training = lm(num_of_followers ~ age + num_of_lists, training_data)
 model_info(model_4_training)
 print("Cp: 3.883")
 # check how closely the model will predict the values in the validation set
@@ -206,15 +318,14 @@ MSRP = msrp(validation_data$num_of_followers, predicted_vals)
 print(paste('MSPR:', MSRP))
 
 # this is for the validation data
-model_4_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_4_validation = lm(num_of_followers ~ age + num_of_lists, validation_data)
 model_info(model_4_validation)
 print("Cp: 2.66")
 ```
 
-### This would be a good place for the table
+### Model Transformation
 
-
-## Model 4: Linear Model with Log(num_of_followers) and age, num_following, and num_of_lists
+## Model 5: Linear Model with Log(num_of_followers) and age, num_following, and num_of_lists
 
 Before running the next model, the Box-Cox method was used to determine if any
 transformations need to be done on the response variable (num_of_followers).
@@ -235,7 +346,7 @@ validation_data$log_num_of_followers = log(validation_data$num_of_followers)
 #m4_error = model_test_function(log_num_of_followers ~ age + num_following + num_of_lists, 1)
 ```
 
-## Model 5: Linear Model with num_of_followers^.06 and age, num_following, and num_of_lists
+## Model 6: Linear Model with num_of_followers^.06 and age, num_following, and num_of_lists
 
 Also due to the Box-Cox, the num_of_followers were raised to the 0.06 power.  
 
@@ -303,20 +414,12 @@ print(paste('The average prediction error is:', m9_error))
 ```
 
 # Further Conclusion
-
-It appears Robust Regression (Model 6) provides the best predictive power for the
-validation set we have.
-
-So we can now rebuild the Robust Linear Regression model with all the data.
+Model 1 is chosen as the best model, so it can be rebuilt with all the data.
 
 ```{r}
 
-final_model = rlm(num_of_followers ~ age + num_following + num_of_lists , data=full_data, psi = psi.bisquare, init='lts', maxit=50)
+final_model = lm(num_of_followers ~ age + num_following + num_of_lists , data=full_data)
 summary(final_model)
+confint(final_model)
 ```
 
-Thus the final model is:
-
-$$
-  num\_of\_followers = 78.657 + 0.030*age + 0.474*num\_following + 12.408*num\_of\_lists
-$$
