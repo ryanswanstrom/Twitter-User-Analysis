@@ -47,7 +47,7 @@ the **has_pic** column contains only a single value that is different
 from the rest.  Thus **has_pic** will not be included in the analysis.
 
 ```{r}
-require(stats)
+library(stats)
 #read in the files
 set.seed(34567)
 training_data = read.csv('twitter_user_data_data_training.csv')
@@ -56,6 +56,22 @@ full_data = read.csv('twitter_user_data_data.csv')
 summary(training_data)
 
 pairs(training_data[3:10])
+```
+
+## Outliers
+
+When looking at the num_following versus the num_of_lists plot, there
+appear to be a few outliers.  Thus, the user with the very high num_following
+and the users with the very high num_of_lists were removed.  Therefore, the
+training set now contains 597 users instead of 600 users. Also, the analysis is
+not included here, but the models performed the same or better with the outliers
+removed.
+
+```{r}
+plot(training_data$num_of_lists, training_data$num_following)
+training_data=training_data[training_data$num_following < 20000 & training_data$num_of_lists < 5000 ,]
+dim(training_data) # new dimensions
+plot(training_data$num_of_lists, training_data$num_following)
 ```
 
 # Analysis
@@ -78,57 +94,124 @@ step$anova # display results
 ```
 
 ```{r}
-# this is a function to run a model on the training and validation sets
-# and to check against the validation set
-# transform is a parameter to indicate a transform, 0 is no transform, 1 is log, 2 is raised to the .06 power, this is a KLUDGE
-model_test_function = function(eq, transform=0) {
-  # create the model with training data
-  train = lm(eval(eq) , data=training_data)
-  print('model on training data')
-  print( summary(train) )
+library(qpcR)  # for PRESS statistic
+
+#calculate the MSRP
+msrp = function(actuals, predicted) {
+  sum((actuals-predicted)^2)/length(actuals)
+}
+
+# print out linear model info
+model_info = function(model) {
+  print(summary(model))
+  #SSE
+  SSE = deviance(model)
+  print(paste('SSE:', SSE))
+  #PRESS
+  pr = PRESS(model, verbose=FALSE)
+  print(paste('PRESS:', pr$stat))
+  #MSE
+  MSE = tail(anova(model)$Mean, 1)
+  print(paste('MSE:', MSE))
+  #R2a
+  aR2 = summary(model)$adj.r.squared
+  print(paste('Adjusted R^2:', aR2))
   
-  # create the same model with the validation data, just to compare parameter values
-  validation = lm(eval(eq) , data=validation_data)
-  print('model on validation data')
-  print( summary(validation) )
-  
-  # check how closely the model will predict the values in the validation set
-  predicted_vals = predict(train, newdata=validation_data)
-  
-  # unwind the transformations
-  if (transform == 1) {
-    predicted_vals = exp(predicted_vals)
-  } else if (transform == 2) {
-    predicted_vals = predicted_vals^(1/.06)
-  }
-  # compare with actuals
-  # notice the function for the prediction error
-  prediction_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
-  print(paste('The average prediction error is:', prediction_error))
-  
-  prediction_error
 }
 ```
 
 
+### All-subsets Regression
+
+```{r}
+# use this to find the Cp values
+library(leaps)
+# only check for columns that we are looking at
+x = training_data[,c(3,5,9)]
+y = training_data[,10]
+models = leaps(x, y)
+models
+
+plot(models$size, models$Cp, log = "y", xlab = "# of predictors", ylab = expression(C[p]), main='Cp values by Number of Predictors', col="red")
+
+minimum <- models$Cp == min(models$Cp)
+best.model <- models$which[minimum, ]
+
+x_val = validation_data[,c(3,5,9)]
+y_val = validation_data[,10]
+models_val = leaps(x_val, y_val)
+models_val
+```
 
 ## Model 1: Linear Model with age, num_following, and num_of_lists
 
 ```{r}
-m1_error = model_test_function(num_of_followers ~ age + num_following + num_of_lists)
+model_1_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_info(model_1_training)
+print("Cp: 4.0")
+# check how closely the model will predict the values in the validation set
+predicted_vals = predict(model_1_training, newdata=validation_data)
+MSRP = msrp(validation_data$num_of_followers, predicted_vals)
+print(paste('MSPR:', MSRP))
+
+# this is for the validation data
+model_1_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_info(model_1_validation)
+print("Cp: 4.0")
 ```
 
 ## Model 2: Linear Model with num_following and num_of_lists
 
 ```{r}
-m2_error = model_test_function(num_of_followers ~ num_following + num_of_lists)
+model_2_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_info(model_2_training)
+print("Cp: 7.13")
+# check how closely the model will predict the values in the validation set
+predicted_vals = predict(model_2_training, newdata=validation_data)
+MSRP = msrp(validation_data$num_of_followers, predicted_vals)
+print(paste('MSPR:', MSRP))
+
+# this is for the validation data
+model_2_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_info(model_2_validation)
+print("Cp: 3.45")
 ```
 
 ## Model 3: Linear Model with just num_of_lists
 
 ```{r}
-m3_error = model_test_function(num_of_followers ~ num_of_lists)
+model_3_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_info(model_3_training)
+print("Cp: 5.74")
+# check how closely the model will predict the values in the validation set
+predicted_vals = predict(model_3_training, newdata=validation_data)
+MSRP = msrp(validation_data$num_of_followers, predicted_vals)
+print(paste('MSPR:', MSRP))
+
+# this is for the validation data
+model_3_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_info(model_3_validation)
+print("Cp: 1.85")
 ```
+
+## Model 4: Linear Model with age and num_of_lists
+
+```{r}
+model_4_training = lm(num_of_followers ~ age + num_following + num_of_lists, training_data)
+model_info(model_4_training)
+print("Cp: 3.883")
+# check how closely the model will predict the values in the validation set
+predicted_vals = predict(model_4_training, newdata=validation_data)
+MSRP = msrp(validation_data$num_of_followers, predicted_vals)
+print(paste('MSPR:', MSRP))
+
+# this is for the validation data
+model_4_validation = lm(num_of_followers ~ age + num_following + num_of_lists, validation_data)
+model_info(model_4_validation)
+print("Cp: 2.66")
+```
+
+### This would be a good place for the table
 
 
 ## Model 4: Linear Model with Log(num_of_followers) and age, num_following, and num_of_lists
@@ -149,7 +232,7 @@ validation_data$log_num_of_followers = log(validation_data$num_of_followers)
 
 # run the model
 
-m4_error = model_test_function(log_num_of_followers ~ age + num_following + num_of_lists, 1)
+#m4_error = model_test_function(log_num_of_followers ~ age + num_following + num_of_lists, 1)
 ```
 
 ## Model 5: Linear Model with num_of_followers^.06 and age, num_following, and num_of_lists
@@ -163,7 +246,7 @@ Also due to the Box-Cox, the num_of_followers were raised to the 0.06 power.
 training_data$raise_num_of_followers = training_data$num_of_followers^.06
 validation_data$raise_num_of_followers = validation_data$num_of_followers^.06
 
-m5_error = model_test_function(raise_num_of_followers ~ age + num_following + num_of_lists, 1)
+#m5_error = model_test_function(raise_num_of_followers ~ age + num_following + num_of_lists, 1)
 ```
 
 # Initial Conclusions
@@ -192,6 +275,8 @@ print(paste('The average prediction error is:', m7_error))
 ```
 
 ## Model 8: Robust linear Regression with num_following, and num_of_lists
+
+Robust Regression is less sensitive to outliers than ordinary least squares regression.  
 ```{r}
 robust_model_8 = rlm(num_of_followers ~ num_following + num_of_lists , data=training_data, psi = psi.bisquare, init='lts', maxit=50)
 summary(robust_model_8)
@@ -209,6 +294,12 @@ summary(regtree)
 predicted_vals = predict(regtree, newdata=validation_data)
 m9_error = sum(abs(predicted_vals - validation_data$num_of_followers))/length(predicted_vals)
 print(paste('The average prediction error is:', m9_error))
+```
+
+## Model 10: Quantile Regression
+
+```{r}
+
 ```
 
 # Further Conclusion
